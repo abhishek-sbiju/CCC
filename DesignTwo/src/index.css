@@ -91,3 +91,21 @@
 .menu-categories::-webkit-scrollbar-thumb {
   background: hsl(var(--gold) / 0.5);
 }
+
+/* Ken Burns continuous zoom for hero carousel (same pattern as MadrasSquare menus) */
+@keyframes kenburns {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.hero-kenburns {
+  animation: kenburns 24s ease-in-out infinite;
+  will-change: transform;
+}
