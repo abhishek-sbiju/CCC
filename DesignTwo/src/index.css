@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 30 10% 8%;
+    --foreground: 40 20% 90%;
+
+    --card: 30 10% 12%;
+    --card-foreground: 40 20% 90%;
+
+    --popover: 30 10% 12%;
+    --popover-foreground: 40 20% 90%;
+
+    --primary: 36 60% 50%;
+    --primary-foreground: 30 10% 8%;
+
+    --secondary: 30 10% 16%;
+    --secondary-foreground: 40 20% 90%;
+
+    --muted: 30 8% 18%;
+    --muted-foreground: 30 12% 55%;
+
+    --accent: 36 60% 50%;
+    --accent-foreground: 30 10% 8%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 30 10% 20%;
+    --input: 30 10% 20%;
+    --ring: 36 60% 50%;
+
+    --radius: 0.25rem;
+
+    --section-green: 140 30% 12%;
+    --section-dark: 30 10% 8%;
+
+    --gold: 36 60% 50%;
+    --gold-light: 40 50% 70%;
+    --gold-dark: 36 60% 35%;
+
+    --font-heading: 'Cormorant Garamond', serif;
+    --font-body: 'Montserrat', sans-serif;
+
+    --sidebar-background: 30 10% 8%;
+    --sidebar-foreground: 40 20% 90%;
+    --sidebar-primary: 36 60% 50%;
+    --sidebar-primary-foreground: 30 10% 8%;
+    --sidebar-accent: 30 10% 16%;
+    --sidebar-accent-foreground: 40 20% 90%;
+    --sidebar-border: 30 10% 20%;
+    --sidebar-ring: 36 60% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: hsl(var(--background));
+}
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--gold) / 0.3);
+  border-radius: 3px;
+}
+
+/* Menu category scrollbar */
+.menu-categories::-webkit-scrollbar {
+  height: 2px;
+}
+.menu-categories::-webkit-scrollbar-thumb {
+  background: hsl(var(--gold) / 0.5);
+}

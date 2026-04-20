@@ -1,0 +1,239 @@
+﻿Category,SubCategory,Name,Description,Variant,Price,DietType,Tags,Available
+BAR,Rum,Old Monk,Rum · 30ml,,₹60,veg,,TRUE
+BAR,Rum,Bacardi White Rum,Rum · 30ml,,₹100,veg,,TRUE
+BAR,Rum,Bacardi Lemon,Rum · 30ml,,₹100,veg,,TRUE
+BAR,Vodka,Smirnoff Reg,Vodka · 30ml,,₹100,veg,,TRUE
+BAR,Vodka,Smirnoff Green Apple,Vodka · 30ml,,₹120,veg,,TRUE
+BAR,Vodka,Absolute Vodka,Vodka · 30ml,,₹200,veg,,TRUE
+BAR,Whiskey,Blenders Pride,Whiskey · 30ml,,₹100,veg,,TRUE
+BAR,Whiskey,VAT 69,Whiskey · 30ml,,₹100,veg,,TRUE
+BAR,Whiskey,Black & White,Whiskey · 30ml,,₹150,veg,,TRUE
+BAR,Whiskey,Jim Beam,Whiskey · 30ml,,₹200,veg,,TRUE
+BAR,Whiskey,100 Pipers 12 Years,Whiskey · 30ml,,₹200,veg,,TRUE
+BAR,Brandy,Morpheus,Brandy · 30ml,,₹100,veg,,TRUE
+BAR,Tequila / Liqueur,Camino,Tequila · 30ml,,₹250,veg,,TRUE
+BAR,Tequila / Liqueur,Jägermeister,Liqueur · 30ml,,₹299,veg,,TRUE
+BAR,Gin,Greater Than London Dry Gin,Gin · 30ml,,₹100,veg,,TRUE
+BAR,Gin,Tanqueray,Gin · 30ml,,₹199,veg,,TRUE
+BAR,Gin,Bombay Sapphire,Gin · 30ml,,₹250,veg,,TRUE
+BAR,Beers,Kingfisher Premium,330 ml,,₹100,non-veg,,TRUE
+BAR,Beers,Kingfisher Strong,330 ml,,₹110,non-veg,,TRUE
+BAR,Beers,Kingfisher Ultra,330 ml,,₹120,non-veg,,TRUE
+BAR,Beers,Heineken,330 ml,,₹130,veg,,TRUE
+BAR,Beers,Heineken Silver,330 ml,,₹140,veg,,TRUE
+BAR,Beers,Budweiser,330 ml,,₹130,veg,,TRUE
+BAR,Draught Beer,KF Premium Draught Mug,330 ml,,₹100,veg,,TRUE
+BAR,Draught Beer,KF Ultra Draught Mug,,,₹120,veg,,TRUE
+BAR,Draught Beer,KF Premium Draught Pitcher,1.5 L,,₹399,veg,,TRUE
+BAR,Draught Beer,KF Ultra Draught Pitcher,1.5 L,,₹499,veg,,TRUE
+BAR,Draught Beer,KF Premium Draught Tower,3 L,,₹750,veg,,TRUE
+BAR,Draught Beer,KF Ultra Draught Tower,3 L,,₹899,veg,,TRUE
+BAR,Cocktails,Mojito,,,₹249,veg,,TRUE
+BAR,Cocktails,Beer Mojito,,,₹249,veg,,TRUE
+BAR,Cocktails,Shandy,,,₹189,veg,,TRUE
+BAR,Cocktails,Boilermaker,,,₹299,veg,,TRUE
+BAR,Cocktails,Daiquiri,,,₹299,veg,,TRUE
+BAR,Cocktails,Margarita,,,₹349,veg,,TRUE
+BAR,Cocktails,Cosmopolitan,,,₹299,veg,,TRUE
+BAR,Cocktails,Tequila Sunrise,,,₹349,veg,,TRUE
+BAR,Cocktails,Pina Colada,,,₹299,veg,,TRUE
+BAR,Cocktails,Blue Lagoon,,,₹299,veg,,TRUE
+BAR,Cocktails,Long Island Iced Tea,,,₹499,veg,,TRUE
+BAR,Mocktails,Virgin Colada,,,₹249,veg,,TRUE
+BAR,Mocktails,Virgin Blue Lagoon,,,₹199,veg,,TRUE
+BAR,Mocktails,Virgin Mojito,,,₹199,veg,,TRUE
+BAR,Mocktails,Sunrise Special,,,₹199,veg,,TRUE
+BAR,Mocktails,Iced Tea Peach,,,₹199,veg,,TRUE
+BAR,Mocktails,Fresh Lime Soda,,,₹100,veg,,TRUE
+BAR,Mocktails,Fresh Lime Water,,,₹70,veg,,TRUE
+BAR,Soft Beverages,Pepsi / Coke / Thums Up,,,₹50,veg,,TRUE
+BAR,Soft Beverages,7UP / Sprite,,,₹50,veg,,TRUE
+BAR,Soft Beverages,Red Bull,,,₹160,veg,,TRUE
+BAR,Soft Beverages,Soda,,,₹20,veg,,TRUE
+HOT BEVERAGES,Coffee,Espresso,,,₹89,veg,,TRUE
+HOT BEVERAGES,Coffee,Americano,,,₹129,veg,,TRUE
+HOT BEVERAGES,Coffee,Cappuccino,,,₹179,veg,,TRUE
+HOT BEVERAGES,Coffee,Hazelnut Cappuccino,,,₹229,veg,,TRUE
+HOT BEVERAGES,Coffee,Caramel Cappuccino,,,₹229,veg,,TRUE
+HOT BEVERAGES,Coffee,Latte,,,₹199,veg,,TRUE
+HOT BEVERAGES,Coffee,Hazelnut Latte,,,₹249,veg,,TRUE
+HOT BEVERAGES,Coffee,Caramel Latte,,,₹249,veg,,TRUE
+HOT BEVERAGES,Coffee,Hot Mocha,,,₹199,veg,,TRUE
+HOT BEVERAGES,Coffee,Hot Chocolate,,,₹199,veg,,TRUE
+HOT BEVERAGES,Tea,Ginger Tea,,,₹89,veg,,TRUE
+HOT BEVERAGES,Tea,Tapri Masala Tea,,,₹89,veg,,TRUE
+HOT BEVERAGES,Tea,Green Tea,,,₹149,veg,,TRUE
+HOT BEVERAGES,Tea,Lemon Tea,,,₹159,veg,,TRUE
+HOT BEVERAGES,Tea,Assam Tea,,,₹89,veg,,TRUE
+COLD BEVERAGES,Cold Coffees,Iced Espresso,,,₹109,veg,,TRUE
+COLD BEVERAGES,Cold Coffees,Iced Americano,,,₹169,veg,,TRUE
+COLD BEVERAGES,Cold Coffees,Iced Mocha,,,₹249,veg,,TRUE
+COLD BEVERAGES,Cold Coffees,Iced Latte,,,₹219,veg,,TRUE
+COLD BEVERAGES,Cold Coffees,Iced Vanilla Latte,,,₹249,veg,,TRUE
+COLD BEVERAGES,Cold Coffees,Iced Spanish Latte,,,₹249,veg,,TRUE
+COLD BEVERAGES,Cold Coffees,Iced Biscoff Latte,,,₹249,veg,,TRUE
+COLD BEVERAGES,Cold Coffees,Classic Affogato,,,₹199,veg,,TRUE
+COLD BEVERAGES,Cold Coffees,Vietnamese Coffee,,,₹229,veg,,TRUE
+COLD BEVERAGES,Frappes,Classic Frappe,,,₹219,veg,,TRUE
+COLD BEVERAGES,Frappes,Caramel Frappe,,,₹239,veg,,TRUE
+COLD BEVERAGES,Frappes,Mocha Frappe,,,₹239,veg,,TRUE
+COLD BEVERAGES,Frappes,Hazelnut Frappe,,,₹239,veg,,TRUE
+COLD BEVERAGES,Frappes,Biscoff Frappe,,,₹249,veg,,TRUE
+COLD BEVERAGES,Shakes,Chocolate Shake,,,₹229,veg,,TRUE
+COLD BEVERAGES,Shakes,Oreo Shake,,,₹229,veg,,TRUE
+COLD BEVERAGES,Shakes,Brownie Shake,,,₹249,veg,,TRUE
+COLD BEVERAGES,Smoothies,Berry Blast,,,₹269,veg,,TRUE
+COLD BEVERAGES,Smoothies,Tropical Delight,,,₹269,veg,,TRUE
+COLD BEVERAGES,Smoothies,Desert Dates,,,₹269,veg,,TRUE
+COLD BEVERAGES,Smoothies,Peanut Butter,,,₹269,veg,,TRUE
+WRAPS,,Fiery Chicken Wrap,,,₹279,non-veg,,TRUE
+WRAPS,,Kolkata Style Egg Wrap,,,₹249,non-veg,,TRUE
+WRAPS,,Kolkata Style Chicken Wrap,,,₹299,non-veg,,TRUE
+WRAPS,,Tikka Wrap,,Paneer / Chicken,₹279,both,,TRUE
+WRAPS,,Quesadilla,,Veg / Chicken,₹329 / ₹389,both,,TRUE
+WRAPS,,Mexican Burrito Wrap,,Veg / Chicken,₹299 / ₹349,both,,TRUE
+WRAPS,,Regular Veg Wrap,,,₹249,veg,,TRUE
+BAO BUNS,Fusion Baos,Original Crispy Chicken Bao,2 pcs,,₹389,non-veg,popular,TRUE
+BAO BUNS,Fusion Baos,Cafreal Bao,,Paneer / Chicken,₹179 / ₹199,both,,TRUE
+BAO BUNS,Fusion Baos,Peri Peri Bao,,Veg / Chicken,₹179 / ₹199,both,,TRUE
+BAO BUNS,Fusion Baos,Tandoori Bao,,Paneer / Chicken,₹179 / ₹199,both,,TRUE
+BAO BUNS,Fusion Baos,Butter Masala Bao,,Paneer / Chicken,₹179 / ₹199,both,,TRUE
+BAO BUNS,Fusion Baos,Original Crispy Veg Bao,2 pcs,,₹349,veg,popular,TRUE
+BAO BUNS,Oriental Baos,Teriyaki Bao,,Paneer / Chicken,₹199,both,,TRUE
+BAO BUNS,Oriental Baos,Chilli Basil Bao,,Veg / Paneer / Chicken,₹179 / ₹199,both,,TRUE
+BAO BUNS,Oriental Baos,Hot Garlic Bao,,Veg / Paneer / Chicken,₹179 / ₹199,both,,TRUE
+BAO BUNS,Oriental Baos,Schezwan Bao,,Veg / Paneer / Chicken,₹179 / ₹199,both,,TRUE
+BAO BUNS,Oriental Baos,Manchurian Bao,,Veg / Paneer / Chicken,₹179 / ₹199,both,,TRUE
+SANDWICHES,,Classic Club,,Veg / Chicken,₹269 / ₹299,both,,TRUE
+SANDWICHES,,Tikka Sandwich,,Paneer / Chicken,₹299,both,,TRUE
+SANDWICHES,,Bombay Masala Sandwich,,,₹239,veg,,TRUE
+BURGERS,,Chef's Special Chicken Burger,,,₹399,non-veg,chef,TRUE
+BURGERS,,Fiery Chicken Burger,,,₹399,non-veg,,TRUE
+BURGERS,,Mutton Burger,,,₹499,non-veg,,TRUE
+BURGERS,,Double Cheese Burger,,Veg / Chicken,₹299 / ₹339,both,,TRUE
+PIZZAS,,Cajun Chicken Pizza,"Cajun chicken, Mexican sauce, roasted garlic, chilli flakes, jalapeños & mushrooms",,₹499,non-veg,,TRUE
+PIZZAS,,Tikka Pizza,,Paneer / Chicken,₹469,both,,TRUE
+PIZZAS,,Chettinad Pizza,,Veg / Chicken,₹439 / ₹469,both,,TRUE
+PIZZAS,,Italian Margherita,,,₹419,veg,,TRUE
+PIZZAS,,Farm Fresh Veg,,,₹439,veg,,TRUE
+PIZZAS,,Paneer & Corn,,,₹469,veg,,TRUE
+PIZZAS,,Genovese Pizza,"Pesto sauce, olive oil, tomato & fresh basil leaves",,₹459,veg,,TRUE
+PIZZAS,,Fungi Boscaiola Pizza,"Mushrooms, thyme, black pepper and cheese sauce",,₹479,veg,,TRUE
+PASTA,,Alfredo,,Veg / Chicken,₹329 / ₹379,both,,TRUE
+PASTA,,Arrabiata,,Veg / Chicken,₹329 / ₹379,both,,TRUE
+PASTA,,Creole (Mix Sauce),,Veg / Chicken,₹329 / ₹379,both,,TRUE
+PASTA,,Mac n Cheese,,Veg / Chicken,₹359 / ₹399,both,,TRUE
+PASTA,,Aglio Olio,,Veg / Chicken / Shrimp,₹339 / ₹359 / ₹469,both,,TRUE
+PASTA,,Creamy Pesto Pasta,,Veg / Chicken,₹379 / ₹399,both,,TRUE
+APPETIZERS,,Chicken Popcorn,,,₹299,non-veg,,TRUE
+APPETIZERS,,Chicken Garlic Fingers,,,₹279,non-veg,,TRUE
+APPETIZERS,,Fiery Chicken,,,₹359,non-veg,,TRUE
+APPETIZERS,,Fish & Chips,,,₹469,non-veg,seafood,TRUE
+APPETIZERS,,Butter Garlic Bell Pepper Prawns,,,₹469,non-veg,seafood,TRUE
+APPETIZERS,,Garlic Bread,,,₹119,veg,,TRUE
+APPETIZERS,,French Fries,,,₹199,veg,,TRUE
+APPETIZERS,,Peri Peri Fries,,,₹239,veg,,TRUE
+APPETIZERS,,Cheesy Garlic Fries,,,₹269,veg,,TRUE
+APPETIZERS,,Crunchy Nacho Fiesta,,,₹289,veg,,TRUE
+ASIAN APPETIZERS,,Butter Garlic Chicken,,,₹359,non-veg,,TRUE
+ASIAN APPETIZERS,,Spring Rolls,,Veg / Chicken,₹239 / ₹279,both,,TRUE
+ASIAN APPETIZERS,,Manchurian Dry,,Gobi / Paneer / Chicken,₹289 / ₹339,both,,TRUE
+ASIAN APPETIZERS,,Chilli Dry,,Mushroom / Paneer / Chicken,₹329 / ₹339,both,,TRUE
+ASIAN APPETIZERS,,Salt & Pepper,,Veg / Paneer / Chicken,₹289 / ₹339,both,,TRUE
+ASIAN APPETIZERS,,Honey Chilli Potatoes,,,₹269,veg,,TRUE
+ASIAN APPETIZERS,,Potato Poppers,,,₹229,veg,,TRUE
+CHICKEN WINGS,,Chicken Lollypop,,,₹349,non-veg,,TRUE
+CHICKEN WINGS,,BBQ Wings,,,₹349,veg,,TRUE
+CHICKEN WINGS,,Schezwan Wings,,,₹349,veg,,TRUE
+CHICKEN WINGS,,Hot Garlic Wings,,,₹349,veg,,TRUE
+CHICKEN WINGS,,Chilli Basil Wings,,,₹349,veg,,TRUE
+CHICKEN WINGS,,Thai Wings,,,₹349,veg,,TRUE
+MOMOS,,Chicken Momo,,Steamed / Fried / Pan Tossed,₹199 / ₹219 / ₹229,non-veg,,TRUE
+MOMOS,,Chicken Cheese Momo,Steamed,,₹229,non-veg,,TRUE
+MOMOS,,Veg Momo,,Steamed / Fried / Pan Tossed,₹169 / ₹189 / ₹199,veg,,TRUE
+MOMOS,,Corn Cheese Momo,Steamed,,₹189,veg,,TRUE
+SOUPS,,Cream of Soup,,Veg / Chicken,₹189 / ₹229,both,,TRUE
+SOUPS,,Noodle Soup,,Veg / Chicken,₹169 / ₹199,both,,TRUE
+SOUPS,,Lemon Coriander,,Veg / Chicken,₹179 / ₹199,both,,TRUE
+SOUPS,,Hot & Sour,,Veg / Chicken / Seafood,₹179 / ₹199 / ₹229,both,,TRUE
+SOUPS,,Manchow,,Veg / Chicken,₹179 / ₹199,both,,TRUE
+SOUPS,,Sweet Corn,,Veg / Chicken,₹179 / ₹199,both,,TRUE
+SOUPS,,Roasted Tomato Basil,,,₹199,veg,,TRUE
+TANDOOR,,Chicken Tikka Classic,6 pcs,,₹349,non-veg,,TRUE
+TANDOOR,,Chicken Hariyali Kebab,6 pcs,,₹349,non-veg,,TRUE
+TANDOOR,,Murgh Malai Tikka,,,₹349,veg,,TRUE
+TANDOOR,,Chicken Seekh Kebab,2 seekh,,₹389,non-veg,,TRUE
+TANDOOR,,Tandoori Chicken Classic,,Half / Full,₹399 / ₹699,non-veg,,TRUE
+TANDOOR,,Tandoori Platter (Non Veg),,,"₹1,199",veg,,TRUE
+TANDOOR,,Classic Paneer Tikka,5 pcs,,₹349,veg,,TRUE
+TANDOOR,,Angara Paneer Tikka,,,₹349,veg,,TRUE
+TANDOOR,,Malai Paneer Tikka,,,₹389,veg,,TRUE
+INDIAN MAINS,,Goan King Fish Curry,,,₹499,non-veg,seafood,TRUE
+INDIAN MAINS,,Goan Prawn Curry,,,₹429,non-veg,seafood,TRUE
+INDIAN MAINS,,Xacuti,,Mushroom / Chicken,₹319 / ₹379,both,,TRUE
+INDIAN MAINS,,Butter Masala,,Paneer / Chicken,₹379,both,,TRUE
+INDIAN MAINS,,Cafreal,,Paneer / Chicken,₹379,both,,TRUE
+INDIAN MAINS,,Tikka Masala,,Paneer / Chicken,₹379,both,,TRUE
+INDIAN MAINS,,Dal Makhani,,,₹289,veg,,TRUE
+INDIAN MAINS,,Dal Tadka,,,₹249,veg,,TRUE
+INDIAN MAINS,,Steamed Rice,,,₹159,veg,,TRUE
+INDIAN MAINS,,Jeera Rice,,,₹199,veg,,TRUE
+BIRYANI,,Kolkata Style Chicken Biryani,,,₹259,non-veg,,TRUE
+BIRYANI,,Chettinad Chicken Biryani,,,₹259,non-veg,,TRUE
+BIRYANI,,Butter Masala Chicken Biryani,,,₹259,non-veg,,TRUE
+BIRYANI,,Egg Biryani,,,₹229,non-veg,,TRUE
+BIRYANI,,Veg Biryani,,,₹199,veg,,TRUE
+BIRYANI,,Paneer Biryani,,,₹259,veg,,TRUE
+NOODLES & RICE,,Fried Rice,,Veg / Chicken / Mix,₹219 / ₹259 / ₹319,both,,TRUE
+NOODLES & RICE,,Hakka Noodles,,Veg / Chicken / Mix,₹219 / ₹259 / ₹319,both,,TRUE
+NOODLES & RICE,,Burnt Garlic Rice,,Veg / Chicken / Mix,₹239 / ₹269 / ₹329,both,,TRUE
+NOODLES & RICE,,Burnt Garlic Noodles,,Veg / Chicken / Mix,₹239 / ₹269 / ₹329,both,,TRUE
+NOODLES & RICE,,Schezwan Rice,,Veg / Chicken / Mix,₹239 / ₹269 / ₹329,both,,TRUE
+NOODLES & RICE,,Schezwan Noodles,,Veg / Chicken / Mix,₹239 / ₹269 / ₹329,both,,TRUE
+NOODLES & RICE,,Egg Fried Rice,,,₹239,non-veg,,TRUE
+GRAVIES & SAUCES,,Schezwan Sauce,,Veg / Paneer / Chicken,₹219 / ₹259,both,,TRUE
+GRAVIES & SAUCES,,Hot Garlic Sauce,,Veg / Paneer / Chicken,₹219 / ₹259,both,,TRUE
+GRAVIES & SAUCES,,Thai Red Curry Sauce,,Veg / Chicken,₹329 / ₹369,both,,TRUE
+GRAVIES & SAUCES,,Thai Green Curry Sauce,,Veg / Chicken,₹329 / ₹369,both,,TRUE
+GRAVIES & SAUCES,,Chilli Basil Sauce,,Veg / Paneer / Chicken,₹219 / ₹259,both,,TRUE
+GRAVIES & SAUCES,,Manchurian Sauce,,Veg / Paneer / Chicken,₹219 / ₹259,both,,TRUE
+PRE-PLATED CONTI-MEALS,,Grilled Fish w Lemon Butter Sauce,Pan grilled fish in lemon butter sauce with sautéed vegetables and potato wedges,,₹499,non-veg,seafood,TRUE
+PRE-PLATED CONTI-MEALS,,Jalapeño Chicken w Creamy Mexican Sauce,Marinated chicken in Mexican cheese sauce with herb garlic veggies,,₹479,non-veg,,TRUE
+PRE-PLATED CONTI-MEALS,,Creamy Cajun Chicken,Pan seared in Cajun sauce with sun-dried tomatoes & baby spinach,,₹479,non-veg,,TRUE
+PRE-PLATED CONTI-MEALS,,Grilled Chicken w Brown Sauce,Pan fried in homemade brown sauce with sautéed vegetables,,₹479,non-veg,,TRUE
+PRE-PLATED CONTI-MEALS,,Mexican Burrito Bowl,,Veg / Chicken,₹349 / ₹399,both,,TRUE
+PRE-PLATED CONTI-MEALS,,Veg Au Gratin,"French dish with mixed vegetables, white sauce and cheese",,₹349,veg,,TRUE
+SIZZLERS,,Herb Rice & Red Thai Curry,,Veg / Chicken,₹419 / ₹449,both,,TRUE
+SIZZLERS,,Herb Rice & Green Thai Curry,,Veg / Chicken,₹419 / ₹449,both,,TRUE
+SIZZLERS,,Hot Garlic Gravy with Noodles/Rice,,Veg / Chicken,₹399 / ₹429,both,,TRUE
+SIZZLERS,,Manchurian Gravy with Noodles/Rice,,Veg / Chicken,₹399 / ₹429,both,,TRUE
+SIZZLERS,,Chilli Basil Gravy with Noodles/Rice,,Veg / Chicken,₹399 / ₹429,both,,TRUE
+BOWLS,,Red Thai Curry Bowl,,Veg / Chicken / Prawn,₹379 / ₹409 / ₹439,both,,TRUE
+BOWLS,,Green Thai Curry Bowl,,Veg / Chicken / Prawn,₹379 / ₹409 / ₹439,both,,TRUE
+BOWLS,,Hot Garlic Gravy Bowl,,Veg / Chicken / Prawn,₹349 / ₹379 / ₹409,both,,TRUE
+BOWLS,,Manchurian Gravy Bowl,,Veg / Chicken / Prawn,₹349 / ₹379 / ₹409,both,,TRUE
+BREADS,,Tandoori Roti,,,₹19,veg,,TRUE
+BREADS,,Butter Roti,,,₹29,veg,,TRUE
+BREADS,,Tandoori Naan,,,₹49,veg,,TRUE
+BREADS,,Butter Naan,,,₹59,veg,,TRUE
+BREADS,,Butter Garlic Naan,,,₹79,veg,,TRUE
+BREADS,,Cheese Garlic Naan,,,₹139,veg,,TRUE
+BREADS,,Cheese Chilli Garlic Naan,,,₹149,veg,,TRUE
+BREADS,,Tandoori Lachcha Paratha,,,₹89,veg,,TRUE
+DESSERTS,,Demo Signature Brownie,,,₹189,veg,,TRUE
+DESSERTS,,Sizzling Brownie with Ice Cream,,,₹269,veg,,TRUE
+DESSERTS,,Cheesecake Slice,,,₹149,veg,,TRUE
+DESSERTS,,Bebinca,,Regular / With Ice Cream,₹179 / ₹249,veg,,TRUE
+DESSERTS,,Caramel Pudding,,,₹249,veg,,TRUE
+DESSERTS,,Pancake,,,₹199,veg,,TRUE
+DESSERTS,,Ice Cream,2 Scoops,,₹129,veg,,TRUE
+DESSERTS,,Gulab Jamun,,Regular / With Ice Cream,₹169 / ₹219,veg,,TRUE
+DESSERTS,,Chocolate Mousse,,,₹199,veg,,TRUE
+DESSERTS,,Chocolate Mud Dessert,,,₹229,veg,,TRUE
+BAKERY PRE-ORDERS,,Black Forest Cake,,Half / Full,"₹600 / ₹1,100",veg,pre-order,TRUE
+BAKERY PRE-ORDERS,,White Forest Cake,,Half / Full,"₹600 / ₹1,100",veg,pre-order,TRUE
+BAKERY PRE-ORDERS,,Mud Chocolate Cake,,Half / Full,"₹650 / ₹1,200",veg,pre-order,TRUE
+BAKERY PRE-ORDERS,,Fresh Fruit Cake,,Half / Full,"₹800 / ₹1,500",veg,pre-order,TRUE
+BAKERY PRE-ORDERS,,Blueberry Muffins,Set of 12,,₹800,veg,pre-order,TRUE
+BAKERY PRE-ORDERS,,Chocochip Muffins,Set of 12,,₹700,veg,pre-order,TRUE
+BAKERY PRE-ORDERS,,Dark Chocolate Donut,Set of 10,,₹800,veg,pre-order,TRUE
