@@ -25,7 +25,7 @@ const Navbar = () => {
 
   return (
     <nav ref={navRef} className="fixed top-0 left-0 right-0 z-50 bg-background backdrop-blur-sm border-b border-border">
-      <div className="flex items-center justify-between px-3 md:px-8 py-[8px] md:py-[14px]">
+      <div className="flex items-center justify-between px-3 md:px-8 py-[9px] md:py-[15px]">
         <a href="tel:+19999999999" className="flex items-center gap-1 text-muted-foreground hover:text-foreground transition-colors text-[11px] md:text-xs font-body leading-none">
           <Phone size={12} className="shrink-0" />
           <span className="hidden sm:inline">+1 999-999-9999</span>
@@ -38,7 +38,7 @@ const Navbar = () => {
         <div className="flex items-center gap-3 md:gap-4">
           <a
             href="tel:+19999999999"
-            className="hidden md:inline-block px-4 py-[8px] border border-gold text-gold text-[10px] tracking-[0.12em] font-body font-medium hover:bg-gold hover:text-primary-foreground transition-all"
+            className="hidden md:inline-block px-4 py-[9px] border border-gold text-gold text-[10px] tracking-[0.12em] font-body font-medium hover:bg-gold hover:text-primary-foreground transition-all"
           >
             BOOK A TABLE
           </a>
