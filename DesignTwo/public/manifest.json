@@ -1,6 +1,6 @@
 {
-  "name": "Demo Cafe",
-  "short_name": "Demo Menu",
+  "name": "Cafe Chai Coffee",
+  "short_name": "CCC Menu",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#14120f",

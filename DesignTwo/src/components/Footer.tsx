@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
         {/* Brand */}
         <div className="flex flex-col items-center md:items-start">
-          <h2 className="font-heading text-2xl font-bold tracking-[0.15em] text-foreground mb-4">DEMO CAFE</h2>
+          <h2 className="font-heading text-2xl font-bold tracking-[0.1em] text-foreground mb-4">Cafe Chai Coffee</h2>
           <p className="text-muted-foreground font-body text-sm max-w-sm mb-6 leading-relaxed">
             Elevating your dining experience with premium blends, artisanal plates, and an ambiance that speaks luxury.
           </p>
@@ -51,7 +51,7 @@ const Footer = () => {
       </div>
 
       <div className="max-w-7xl mx-auto pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-4 font-body text-xs text-muted-foreground/60">
-        <p>© {new Date().getFullYear()} Demo Cafe. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Cafe Chai Coffee. All rights reserved.</p>
         <div className="flex gap-6">
           <a href="#" className="hover:text-gold transition-colors">Privacy Policy</a>
           <a href="#" className="hover:text-gold transition-colors">Terms of Service</a>

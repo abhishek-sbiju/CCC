@@ -6,12 +6,12 @@ let html = `<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Demo Cafe - Text Menu</title>
+    <title>Cafe Chai Coffee - Text Menu</title>
     <link rel="stylesheet" href="demo-menu.css">
 </head>
 <body>
     <header class="header">
-        <h1>DEMO CAFE</h1>
+        <h1>Cafe Chai Coffee</h1>
         <p>Premium Digital Menu</p>
     </header>
     <main class="menu-container">
@@ -63,7 +63,7 @@ menuCategories.forEach(category => {
 html += `
     </main>
     <footer class="footer">
-        <p>&copy; ${new Date().getFullYear()} Demo Cafe. All rights reserved.</p>
+        <p>&copy; ${new Date().getFullYear()} Cafe Chai Coffee. All rights reserved.</p>
     </footer>
 </body>
 </html>`;
