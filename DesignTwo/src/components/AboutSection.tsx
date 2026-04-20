@@ -3,7 +3,7 @@ const AboutSection = () => {
     <section className="px-4 md:px-8 lg:px-16 py-16 md:py-24 bg-card">
       <div className="max-w-3xl mx-auto text-center">
         <p className="text-gold/60 text-xs tracking-[0.3em] font-body mb-2 uppercase">About Us</p>
-        <h2 className="font-heading text-4xl md:text-5xl font-bold text-foreground mb-6">
+        <h2 className="font-heading text-4xl md:text-5xl font-bold uppercase tracking-[0.1em] md:tracking-[0.12em] text-foreground mb-6">
           Cafe Chai Coffee
         </h2>
         <div className="flex items-center justify-center gap-3 mb-8">

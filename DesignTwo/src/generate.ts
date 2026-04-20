@@ -11,7 +11,7 @@ let html = `<!DOCTYPE html>
 </head>
 <body>
     <header class="header">
-        <h1>Cafe Chai Coffee</h1>
+        <h1 style="text-transform:uppercase;letter-spacing:0.14em;">Cafe Chai Coffee</h1>
         <p>Premium Digital Menu</p>
     </header>
     <main class="menu-container">

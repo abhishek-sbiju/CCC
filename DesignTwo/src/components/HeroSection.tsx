@@ -71,7 +71,7 @@ const HeroSection = () => {
         </p>
 
         <h1
-          className="font-heading text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-bold tracking-[0.06em] sm:tracking-[0.1em] md:tracking-[0.12em] text-white mb-4 sm:mb-5 leading-[0.92] sm:leading-[0.95] animate-fade-in px-1 text-balance max-w-[18ch] sm:max-w-none mx-auto"
+          className="font-heading text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-bold uppercase tracking-[0.08em] sm:tracking-[0.12em] md:tracking-[0.14em] lg:tracking-[0.16em] text-white mb-4 sm:mb-5 leading-[0.92] sm:leading-[0.95] animate-fade-in px-1 text-balance max-w-[min(100%,22rem)] sm:max-w-none mx-auto"
           style={{
             animationDelay: "0.15s",
             textShadow:
