@@ -8,7 +8,8 @@ const outPath = resolve(__dirname, "../menu.csv");
 
 let source = readFileSync(srcPath, "utf8");
 
-// Strip TS types: drop interface blocks and type annotations on the export.
+// Strip TS types: drop interface / type-alias blocks and type annotations on the export.
+source = source.replace(/export type [^=]+ = [^;]+;\s*/g, "");
 source = source.replace(/export interface [\s\S]*?\n\}\n/g, "");
 source = source.replace(/export const menuCategories: MenuCategory\[\] =/, "const menuCategories =");
 source = source.replace(/export const categoryNavItems[\s\S]*$/, "");

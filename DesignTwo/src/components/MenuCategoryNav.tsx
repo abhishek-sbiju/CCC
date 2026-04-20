@@ -25,13 +25,16 @@ const MenuCategoryNav = ({ activeCategory, onCategoryClick, categories }: MenuCa
 
   return (
     <div id="menu-nav" className="sticky z-40 bg-background border-b border-border shadow-sm" style={{ top: "calc(var(--navbar-height, 53px) - 1px)" }}>
-      <div ref={scrollContainerRef} className="menu-categories flex overflow-x-auto gap-1 py-3.5 px-2 md:px-6 scroll-smooth">
+      <div
+        ref={scrollContainerRef}
+        className="menu-categories flex items-center overflow-x-auto gap-0.5 md:gap-1 py-1.5 md:py-3 px-2 md:px-6 scroll-smooth min-h-0"
+      >
         {categories.map((item) => (
           <button
             key={item.id}
             data-category-id={item.id}
             onClick={() => onCategoryClick(item.id)}
-            className={`whitespace-nowrap px-4 py-2.5 text-sm md:text-base tracking-[0.1em] font-body font-medium transition-all flex-shrink-0 rounded-sm
+            className={`whitespace-nowrap px-2 md:px-3 py-1 md:py-1.5 text-[11px] md:text-sm tracking-[0.08em] md:tracking-[0.1em] font-body font-medium transition-all flex-shrink-0 rounded-sm leading-tight
               ${activeCategory === item.id
                 ? "bg-gold text-primary-foreground shadow-sm"
                 : "text-muted-foreground hover:text-foreground hover:bg-white/[0.02]"

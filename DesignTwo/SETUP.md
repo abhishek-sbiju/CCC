@@ -5,7 +5,7 @@ done. No developer needed.
 
 ## The Sheet
 
-<https://docs.google.com/spreadsheets/d/1xORy2eVg0qnDMW2BV2eh5EhVhERHZjcp2uhzZOXidJ0/edit?gid=651904924>
+<https://docs.google.com/spreadsheets/d/1kJGk67jEl23U-w7A-vc5ywkipkAlmkz9Atu_zAjP-oU/edit?gid=1906695727>
 
 The sheet ID and tab gid are wired into `src/lib/sheetMenu.ts`. You don't
 need to change any code to edit the menu — just edit cells in the sheet.
@@ -24,6 +24,12 @@ Category | SubCategory | Name | Description | Variant | Price | DietType | Tags 
 
 If the sheet is blank, seed it by **File → Import** and uploading
 `menu.csv` from this repo (choose **Replace current sheet**).
+
+**Section order in the nav:** Tabs follow the order each `Category` name
+**first appears** in the sheet — **except** **BAR**, **HOT BEVERAGES**, and
+**COLD BEVERAGES**, which the app **always moves to the end** of the strip
+(so the sheet can keep spirits at the top for editing without the live site
+jumping back to BAR first).
 
 ### 2. Share publicly (view-only)
 

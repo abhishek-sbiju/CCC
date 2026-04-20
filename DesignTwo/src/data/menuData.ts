@@ -24,196 +24,6 @@ export interface MenuCategory {
 
 export const menuCategories: MenuCategory[] = [
   {
-    id: "bar",
-    title: "BAR",
-    subCategories: [
-      {
-        name: "Rum",
-        items: [
-          { name: "Old Monk", price: "₹60", description: "Rum · 30ml" },
-          { name: "Bacardi White Rum", price: "₹100", description: "Rum · 30ml" },
-          { name: "Bacardi Lemon", price: "₹100", description: "Rum · 30ml" },
-        ],
-      },
-      {
-        name: "Vodka",
-        items: [
-          { name: "Smirnoff Reg", price: "₹100", description: "Vodka · 30ml" },
-          { name: "Smirnoff Green Apple", price: "₹120", description: "Vodka · 30ml" },
-          { name: "Absolute Vodka", price: "₹200", description: "Vodka · 30ml" },
-        ],
-      },
-      {
-        name: "Whiskey",
-        items: [
-          { name: "Blenders Pride", price: "₹100", description: "Whiskey · 30ml" },
-          { name: "VAT 69", price: "₹100", description: "Whiskey · 30ml" },
-          { name: "Black & White", price: "₹150", description: "Whiskey · 30ml" },
-          { name: "Jim Beam", price: "₹200", description: "Whiskey · 30ml" },
-          { name: "100 Pipers 12 Years", price: "₹200", description: "Whiskey · 30ml" },
-        ],
-      },
-      {
-        name: "Brandy",
-        items: [
-          { name: "Morpheus", price: "₹100", description: "Brandy · 30ml" },
-        ],
-      },
-      {
-        name: "Tequila / Liqueur",
-        items: [
-          { name: "Camino", price: "₹250", description: "Tequila · 30ml" },
-          { name: "Jägermeister", price: "₹299", description: "Liqueur · 30ml" },
-        ],
-      },
-      {
-        name: "Gin",
-        items: [
-          { name: "Greater Than London Dry Gin", price: "₹100", description: "Gin · 30ml" },
-          { name: "Tanqueray", price: "₹199", description: "Gin · 30ml" },
-          { name: "Bombay Sapphire", price: "₹250", description: "Gin · 30ml" },
-        ],
-      },
-      {
-        name: "Beers",
-        items: [
-          { name: "Kingfisher Premium", price: "₹100", description: "330 ml" },
-          { name: "Kingfisher Strong", price: "₹110", description: "330 ml" },
-          { name: "Kingfisher Ultra", price: "₹120", description: "330 ml" },
-          { name: "Heineken", price: "₹130", description: "330 ml" },
-          { name: "Heineken Silver", price: "₹140", description: "330 ml" },
-          { name: "Budweiser", price: "₹130", description: "330 ml" },
-        ],
-      },
-      {
-        name: "Draught Beer",
-        items: [
-          { name: "KF Premium Draught Mug", price: "₹100", description: "330 ml" },
-          { name: "KF Ultra Draught Mug", price: "₹120" },
-          { name: "KF Premium Draught Pitcher", price: "₹399", description: "1.5 L" },
-          { name: "KF Ultra Draught Pitcher", price: "₹499", description: "1.5 L" },
-          { name: "KF Premium Draught Tower", price: "₹750", description: "3 L" },
-          { name: "KF Ultra Draught Tower", price: "₹899", description: "3 L" },
-        ],
-      },
-      {
-        name: "Cocktails",
-        items: [
-          { name: "Mojito", price: "₹249" },
-          { name: "Beer Mojito", price: "₹249" },
-          { name: "Shandy", price: "₹189" },
-          { name: "Boilermaker", price: "₹299" },
-          { name: "Daiquiri", price: "₹299" },
-          { name: "Margarita", price: "₹349" },
-          { name: "Cosmopolitan", price: "₹299" },
-          { name: "Tequila Sunrise", price: "₹349" },
-          { name: "Pina Colada", price: "₹299" },
-          { name: "Blue Lagoon", price: "₹299" },
-          { name: "Long Island Iced Tea", price: "₹499" },
-        ],
-      },
-      {
-        name: "Mocktails",
-        items: [
-          { name: "Virgin Colada", price: "₹249" },
-          { name: "Virgin Blue Lagoon", price: "₹199" },
-          { name: "Virgin Mojito", price: "₹199" },
-          { name: "Sunrise Special", price: "₹199" },
-          { name: "Iced Tea Peach", price: "₹199" },
-          { name: "Fresh Lime Soda", price: "₹100" },
-          { name: "Fresh Lime Water", price: "₹70" },
-        ],
-      },
-      {
-        name: "Soft Beverages",
-        items: [
-          { name: "Pepsi / Coke / Thums Up", price: "₹50" },
-          { name: "7UP / Sprite", price: "₹50" },
-          { name: "Red Bull", price: "₹160" },
-          { name: "Soda", price: "₹20" },
-        ],
-      },
-    ],
-  },
-  {
-    id: "hot-beverages",
-    title: "HOT BEVERAGES",
-    subCategories: [
-      {
-        name: "Coffee",
-        items: [
-          { name: "Espresso", price: "₹89" },
-          { name: "Americano", price: "₹129" },
-          { name: "Cappuccino", price: "₹179" },
-          { name: "Hazelnut Cappuccino", price: "₹229" },
-          { name: "Caramel Cappuccino", price: "₹229" },
-          { name: "Latte", price: "₹199" },
-          { name: "Hazelnut Latte", price: "₹249" },
-          { name: "Caramel Latte", price: "₹249" },
-          { name: "Hot Mocha", price: "₹199" },
-          { name: "Hot Chocolate", price: "₹199" },
-        ],
-      },
-      {
-        name: "Tea",
-        items: [
-          { name: "Ginger Tea", price: "₹89" },
-          { name: "Tapri Masala Tea", price: "₹89" },
-          { name: "Green Tea", price: "₹149" },
-          { name: "Lemon Tea", price: "₹159" },
-          { name: "Assam Tea", price: "₹89" },
-        ],
-      },
-    ],
-  },
-  {
-    id: "cold-beverages",
-    title: "COLD BEVERAGES",
-    subCategories: [
-      {
-        name: "Cold Coffees",
-        items: [
-          { name: "Iced Espresso", price: "₹109" },
-          { name: "Iced Americano", price: "₹169" },
-          { name: "Iced Mocha", price: "₹249" },
-          { name: "Iced Latte", price: "₹219" },
-          { name: "Iced Vanilla Latte", price: "₹249" },
-          { name: "Iced Spanish Latte", price: "₹249" },
-          { name: "Iced Biscoff Latte", price: "₹249" },
-          { name: "Classic Affogato", price: "₹199" },
-          { name: "Vietnamese Coffee", price: "₹229" },
-        ],
-      },
-      {
-        name: "Frappes",
-        items: [
-          { name: "Classic Frappe", price: "₹219" },
-          { name: "Caramel Frappe", price: "₹239" },
-          { name: "Mocha Frappe", price: "₹239" },
-          { name: "Hazelnut Frappe", price: "₹239" },
-          { name: "Biscoff Frappe", price: "₹249" },
-        ],
-      },
-      {
-        name: "Shakes",
-        items: [
-          { name: "Chocolate Shake", price: "₹229" },
-          { name: "Oreo Shake", price: "₹229" },
-          { name: "Brownie Shake", price: "₹249" },
-        ],
-      },
-      {
-        name: "Smoothies",
-        items: [
-          { name: "Berry Blast", price: "₹269" },
-          { name: "Tropical Delight", price: "₹269" },
-          { name: "Desert Dates", price: "₹269" },
-          { name: "Peanut Butter", price: "₹269" },
-        ],
-      },
-    ],
-  },
-  {
     id: "wraps",
     title: "WRAPS",
     items: [
@@ -512,6 +322,196 @@ export const menuCategories: MenuCategory[] = [
       { name: "Blueberry Muffins", price: "₹800", description: "Set of 12", tags: ["pre-order"] },
       { name: "Chocochip Muffins", price: "₹700", description: "Set of 12", tags: ["pre-order"] },
       { name: "Dark Chocolate Donut", price: "₹800", description: "Set of 10", tags: ["pre-order"] },
+    ],
+  },
+  {
+    id: "bar",
+    title: "BAR",
+    subCategories: [
+      {
+        name: "Rum",
+        items: [
+          { name: "Old Monk", price: "₹60", description: "Rum · 30ml" },
+          { name: "Bacardi White Rum", price: "₹100", description: "Rum · 30ml" },
+          { name: "Bacardi Lemon", price: "₹100", description: "Rum · 30ml" },
+        ],
+      },
+      {
+        name: "Vodka",
+        items: [
+          { name: "Smirnoff Reg", price: "₹100", description: "Vodka · 30ml" },
+          { name: "Smirnoff Green Apple", price: "₹120", description: "Vodka · 30ml" },
+          { name: "Absolute Vodka", price: "₹200", description: "Vodka · 30ml" },
+        ],
+      },
+      {
+        name: "Whiskey",
+        items: [
+          { name: "Blenders Pride", price: "₹100", description: "Whiskey · 30ml" },
+          { name: "VAT 69", price: "₹100", description: "Whiskey · 30ml" },
+          { name: "Black & White", price: "₹150", description: "Whiskey · 30ml" },
+          { name: "Jim Beam", price: "₹200", description: "Whiskey · 30ml" },
+          { name: "100 Pipers 12 Years", price: "₹200", description: "Whiskey · 30ml" },
+        ],
+      },
+      {
+        name: "Brandy",
+        items: [
+          { name: "Morpheus", price: "₹100", description: "Brandy · 30ml" },
+        ],
+      },
+      {
+        name: "Tequila / Liqueur",
+        items: [
+          { name: "Camino", price: "₹250", description: "Tequila · 30ml" },
+          { name: "Jägermeister", price: "₹299", description: "Liqueur · 30ml" },
+        ],
+      },
+      {
+        name: "Gin",
+        items: [
+          { name: "Greater Than London Dry Gin", price: "₹100", description: "Gin · 30ml" },
+          { name: "Tanqueray", price: "₹199", description: "Gin · 30ml" },
+          { name: "Bombay Sapphire", price: "₹250", description: "Gin · 30ml" },
+        ],
+      },
+      {
+        name: "Beers",
+        items: [
+          { name: "Kingfisher Premium", price: "₹100", description: "330 ml" },
+          { name: "Kingfisher Strong", price: "₹110", description: "330 ml" },
+          { name: "Kingfisher Ultra", price: "₹120", description: "330 ml" },
+          { name: "Heineken", price: "₹130", description: "330 ml" },
+          { name: "Heineken Silver", price: "₹140", description: "330 ml" },
+          { name: "Budweiser", price: "₹130", description: "330 ml" },
+        ],
+      },
+      {
+        name: "Draught Beer",
+        items: [
+          { name: "KF Premium Draught Mug", price: "₹100", description: "330 ml" },
+          { name: "KF Ultra Draught Mug", price: "₹120" },
+          { name: "KF Premium Draught Pitcher", price: "₹399", description: "1.5 L" },
+          { name: "KF Ultra Draught Pitcher", price: "₹499", description: "1.5 L" },
+          { name: "KF Premium Draught Tower", price: "₹750", description: "3 L" },
+          { name: "KF Ultra Draught Tower", price: "₹899", description: "3 L" },
+        ],
+      },
+      {
+        name: "Cocktails",
+        items: [
+          { name: "Mojito", price: "₹249" },
+          { name: "Beer Mojito", price: "₹249" },
+          { name: "Shandy", price: "₹189" },
+          { name: "Boilermaker", price: "₹299" },
+          { name: "Daiquiri", price: "₹299" },
+          { name: "Margarita", price: "₹349" },
+          { name: "Cosmopolitan", price: "₹299" },
+          { name: "Tequila Sunrise", price: "₹349" },
+          { name: "Pina Colada", price: "₹299" },
+          { name: "Blue Lagoon", price: "₹299" },
+          { name: "Long Island Iced Tea", price: "₹499" },
+        ],
+      },
+      {
+        name: "Mocktails",
+        items: [
+          { name: "Virgin Colada", price: "₹249" },
+          { name: "Virgin Blue Lagoon", price: "₹199" },
+          { name: "Virgin Mojito", price: "₹199" },
+          { name: "Sunrise Special", price: "₹199" },
+          { name: "Iced Tea Peach", price: "₹199" },
+          { name: "Fresh Lime Soda", price: "₹100" },
+          { name: "Fresh Lime Water", price: "₹70" },
+        ],
+      },
+      {
+        name: "Soft Beverages",
+        items: [
+          { name: "Pepsi / Coke / Thums Up", price: "₹50" },
+          { name: "7UP / Sprite", price: "₹50" },
+          { name: "Red Bull", price: "₹160" },
+          { name: "Soda", price: "₹20" },
+        ],
+      },
+    ],
+  },
+  {
+    id: "hot-beverages",
+    title: "HOT BEVERAGES",
+    subCategories: [
+      {
+        name: "Coffee",
+        items: [
+          { name: "Espresso", price: "₹89" },
+          { name: "Americano", price: "₹129" },
+          { name: "Cappuccino", price: "₹179" },
+          { name: "Hazelnut Cappuccino", price: "₹229" },
+          { name: "Caramel Cappuccino", price: "₹229" },
+          { name: "Latte", price: "₹199" },
+          { name: "Hazelnut Latte", price: "₹249" },
+          { name: "Caramel Latte", price: "₹249" },
+          { name: "Hot Mocha", price: "₹199" },
+          { name: "Hot Chocolate", price: "₹199" },
+        ],
+      },
+      {
+        name: "Tea",
+        items: [
+          { name: "Ginger Tea", price: "₹89" },
+          { name: "Tapri Masala Tea", price: "₹89" },
+          { name: "Green Tea", price: "₹149" },
+          { name: "Lemon Tea", price: "₹159" },
+          { name: "Assam Tea", price: "₹89" },
+        ],
+      },
+    ],
+  },
+  {
+    id: "cold-beverages",
+    title: "COLD BEVERAGES",
+    subCategories: [
+      {
+        name: "Cold Coffees",
+        items: [
+          { name: "Iced Espresso", price: "₹109" },
+          { name: "Iced Americano", price: "₹169" },
+          { name: "Iced Mocha", price: "₹249" },
+          { name: "Iced Latte", price: "₹219" },
+          { name: "Iced Vanilla Latte", price: "₹249" },
+          { name: "Iced Spanish Latte", price: "₹249" },
+          { name: "Iced Biscoff Latte", price: "₹249" },
+          { name: "Classic Affogato", price: "₹199" },
+          { name: "Vietnamese Coffee", price: "₹229" },
+        ],
+      },
+      {
+        name: "Frappes",
+        items: [
+          { name: "Classic Frappe", price: "₹219" },
+          { name: "Caramel Frappe", price: "₹239" },
+          { name: "Mocha Frappe", price: "₹239" },
+          { name: "Hazelnut Frappe", price: "₹239" },
+          { name: "Biscoff Frappe", price: "₹249" },
+        ],
+      },
+      {
+        name: "Shakes",
+        items: [
+          { name: "Chocolate Shake", price: "₹229" },
+          { name: "Oreo Shake", price: "₹229" },
+          { name: "Brownie Shake", price: "₹249" },
+        ],
+      },
+      {
+        name: "Smoothies",
+        items: [
+          { name: "Berry Blast", price: "₹269" },
+          { name: "Tropical Delight", price: "₹269" },
+          { name: "Desert Dates", price: "₹269" },
+          { name: "Peanut Butter", price: "₹269" },
+        ],
+      },
     ],
   },
 ];

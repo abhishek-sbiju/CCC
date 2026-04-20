@@ -1,91 +1,4 @@
 ﻿Category,SubCategory,Name,Description,Variant,Price,DietType,Tags,Available
-BAR,Rum,Old Monk,Rum · 30ml,,₹60,veg,,TRUE
-BAR,Rum,Bacardi White Rum,Rum · 30ml,,₹100,veg,,TRUE
-BAR,Rum,Bacardi Lemon,Rum · 30ml,,₹100,veg,,TRUE
-BAR,Vodka,Smirnoff Reg,Vodka · 30ml,,₹100,veg,,TRUE
-BAR,Vodka,Smirnoff Green Apple,Vodka · 30ml,,₹120,veg,,TRUE
-BAR,Vodka,Absolute Vodka,Vodka · 30ml,,₹200,veg,,TRUE
-BAR,Whiskey,Blenders Pride,Whiskey · 30ml,,₹100,veg,,TRUE
-BAR,Whiskey,VAT 69,Whiskey · 30ml,,₹100,veg,,TRUE
-BAR,Whiskey,Black & White,Whiskey · 30ml,,₹150,veg,,TRUE
-BAR,Whiskey,Jim Beam,Whiskey · 30ml,,₹200,veg,,TRUE
-BAR,Whiskey,100 Pipers 12 Years,Whiskey · 30ml,,₹200,veg,,TRUE
-BAR,Brandy,Morpheus,Brandy · 30ml,,₹100,veg,,TRUE
-BAR,Tequila / Liqueur,Camino,Tequila · 30ml,,₹250,veg,,TRUE
-BAR,Tequila / Liqueur,Jägermeister,Liqueur · 30ml,,₹299,veg,,TRUE
-BAR,Gin,Greater Than London Dry Gin,Gin · 30ml,,₹100,veg,,TRUE
-BAR,Gin,Tanqueray,Gin · 30ml,,₹199,veg,,TRUE
-BAR,Gin,Bombay Sapphire,Gin · 30ml,,₹250,veg,,TRUE
-BAR,Beers,Kingfisher Premium,330 ml,,₹100,non-veg,,TRUE
-BAR,Beers,Kingfisher Strong,330 ml,,₹110,non-veg,,TRUE
-BAR,Beers,Kingfisher Ultra,330 ml,,₹120,non-veg,,TRUE
-BAR,Beers,Heineken,330 ml,,₹130,veg,,TRUE
-BAR,Beers,Heineken Silver,330 ml,,₹140,veg,,TRUE
-BAR,Beers,Budweiser,330 ml,,₹130,veg,,TRUE
-BAR,Draught Beer,KF Premium Draught Mug,330 ml,,₹100,veg,,TRUE
-BAR,Draught Beer,KF Ultra Draught Mug,,,₹120,veg,,TRUE
-BAR,Draught Beer,KF Premium Draught Pitcher,1.5 L,,₹399,veg,,TRUE
-BAR,Draught Beer,KF Ultra Draught Pitcher,1.5 L,,₹499,veg,,TRUE
-BAR,Draught Beer,KF Premium Draught Tower,3 L,,₹750,veg,,TRUE
-BAR,Draught Beer,KF Ultra Draught Tower,3 L,,₹899,veg,,TRUE
-BAR,Cocktails,Mojito,,,₹249,veg,,TRUE
-BAR,Cocktails,Beer Mojito,,,₹249,veg,,TRUE
-BAR,Cocktails,Shandy,,,₹189,veg,,TRUE
-BAR,Cocktails,Boilermaker,,,₹299,veg,,TRUE
-BAR,Cocktails,Daiquiri,,,₹299,veg,,TRUE
-BAR,Cocktails,Margarita,,,₹349,veg,,TRUE
-BAR,Cocktails,Cosmopolitan,,,₹299,veg,,TRUE
-BAR,Cocktails,Tequila Sunrise,,,₹349,veg,,TRUE
-BAR,Cocktails,Pina Colada,,,₹299,veg,,TRUE
-BAR,Cocktails,Blue Lagoon,,,₹299,veg,,TRUE
-BAR,Cocktails,Long Island Iced Tea,,,₹499,veg,,TRUE
-BAR,Mocktails,Virgin Colada,,,₹249,veg,,TRUE
-BAR,Mocktails,Virgin Blue Lagoon,,,₹199,veg,,TRUE
-BAR,Mocktails,Virgin Mojito,,,₹199,veg,,TRUE
-BAR,Mocktails,Sunrise Special,,,₹199,veg,,TRUE
-BAR,Mocktails,Iced Tea Peach,,,₹199,veg,,TRUE
-BAR,Mocktails,Fresh Lime Soda,,,₹100,veg,,TRUE
-BAR,Mocktails,Fresh Lime Water,,,₹70,veg,,TRUE
-BAR,Soft Beverages,Pepsi / Coke / Thums Up,,,₹50,veg,,TRUE
-BAR,Soft Beverages,7UP / Sprite,,,₹50,veg,,TRUE
-BAR,Soft Beverages,Red Bull,,,₹160,veg,,TRUE
-BAR,Soft Beverages,Soda,,,₹20,veg,,TRUE
-HOT BEVERAGES,Coffee,Espresso,,,₹89,veg,,TRUE
-HOT BEVERAGES,Coffee,Americano,,,₹129,veg,,TRUE
-HOT BEVERAGES,Coffee,Cappuccino,,,₹179,veg,,TRUE
-HOT BEVERAGES,Coffee,Hazelnut Cappuccino,,,₹229,veg,,TRUE
-HOT BEVERAGES,Coffee,Caramel Cappuccino,,,₹229,veg,,TRUE
-HOT BEVERAGES,Coffee,Latte,,,₹199,veg,,TRUE
-HOT BEVERAGES,Coffee,Hazelnut Latte,,,₹249,veg,,TRUE
-HOT BEVERAGES,Coffee,Caramel Latte,,,₹249,veg,,TRUE
-HOT BEVERAGES,Coffee,Hot Mocha,,,₹199,veg,,TRUE
-HOT BEVERAGES,Coffee,Hot Chocolate,,,₹199,veg,,TRUE
-HOT BEVERAGES,Tea,Ginger Tea,,,₹89,veg,,TRUE
-HOT BEVERAGES,Tea,Tapri Masala Tea,,,₹89,veg,,TRUE
-HOT BEVERAGES,Tea,Green Tea,,,₹149,veg,,TRUE
-HOT BEVERAGES,Tea,Lemon Tea,,,₹159,veg,,TRUE
-HOT BEVERAGES,Tea,Assam Tea,,,₹89,veg,,TRUE
-COLD BEVERAGES,Cold Coffees,Iced Espresso,,,₹109,veg,,TRUE
-COLD BEVERAGES,Cold Coffees,Iced Americano,,,₹169,veg,,TRUE
-COLD BEVERAGES,Cold Coffees,Iced Mocha,,,₹249,veg,,TRUE
-COLD BEVERAGES,Cold Coffees,Iced Latte,,,₹219,veg,,TRUE
-COLD BEVERAGES,Cold Coffees,Iced Vanilla Latte,,,₹249,veg,,TRUE
-COLD BEVERAGES,Cold Coffees,Iced Spanish Latte,,,₹249,veg,,TRUE
-COLD BEVERAGES,Cold Coffees,Iced Biscoff Latte,,,₹249,veg,,TRUE
-COLD BEVERAGES,Cold Coffees,Classic Affogato,,,₹199,veg,,TRUE
-COLD BEVERAGES,Cold Coffees,Vietnamese Coffee,,,₹229,veg,,TRUE
-COLD BEVERAGES,Frappes,Classic Frappe,,,₹219,veg,,TRUE
-COLD BEVERAGES,Frappes,Caramel Frappe,,,₹239,veg,,TRUE
-COLD BEVERAGES,Frappes,Mocha Frappe,,,₹239,veg,,TRUE
-COLD BEVERAGES,Frappes,Hazelnut Frappe,,,₹239,veg,,TRUE
-COLD BEVERAGES,Frappes,Biscoff Frappe,,,₹249,veg,,TRUE
-COLD BEVERAGES,Shakes,Chocolate Shake,,,₹229,veg,,TRUE
-COLD BEVERAGES,Shakes,Oreo Shake,,,₹229,veg,,TRUE
-COLD BEVERAGES,Shakes,Brownie Shake,,,₹249,veg,,TRUE
-COLD BEVERAGES,Smoothies,Berry Blast,,,₹269,veg,,TRUE
-COLD BEVERAGES,Smoothies,Tropical Delight,,,₹269,veg,,TRUE
-COLD BEVERAGES,Smoothies,Desert Dates,,,₹269,veg,,TRUE
-COLD BEVERAGES,Smoothies,Peanut Butter,,,₹269,veg,,TRUE
 WRAPS,,Fiery Chicken Wrap,,,₹279,non-veg,,TRUE
 WRAPS,,Kolkata Style Egg Wrap,,,₹249,non-veg,,TRUE
 WRAPS,,Kolkata Style Chicken Wrap,,,₹299,non-veg,,TRUE
@@ -237,3 +150,90 @@ BAKERY PRE-ORDERS,,Fresh Fruit Cake,,Half / Full,"₹800 / ₹1,500",veg,pre-ord
 BAKERY PRE-ORDERS,,Blueberry Muffins,Set of 12,,₹800,veg,pre-order,TRUE
 BAKERY PRE-ORDERS,,Chocochip Muffins,Set of 12,,₹700,veg,pre-order,TRUE
 BAKERY PRE-ORDERS,,Dark Chocolate Donut,Set of 10,,₹800,veg,pre-order,TRUE
+BAR,Rum,Old Monk,Rum · 30ml,,₹60,veg,,TRUE
+BAR,Rum,Bacardi White Rum,Rum · 30ml,,₹100,veg,,TRUE
+BAR,Rum,Bacardi Lemon,Rum · 30ml,,₹100,veg,,TRUE
+BAR,Vodka,Smirnoff Reg,Vodka · 30ml,,₹100,veg,,TRUE
+BAR,Vodka,Smirnoff Green Apple,Vodka · 30ml,,₹120,veg,,TRUE
+BAR,Vodka,Absolute Vodka,Vodka · 30ml,,₹200,veg,,TRUE
+BAR,Whiskey,Blenders Pride,Whiskey · 30ml,,₹100,veg,,TRUE
+BAR,Whiskey,VAT 69,Whiskey · 30ml,,₹100,veg,,TRUE
+BAR,Whiskey,Black & White,Whiskey · 30ml,,₹150,veg,,TRUE
+BAR,Whiskey,Jim Beam,Whiskey · 30ml,,₹200,veg,,TRUE
+BAR,Whiskey,100 Pipers 12 Years,Whiskey · 30ml,,₹200,veg,,TRUE
+BAR,Brandy,Morpheus,Brandy · 30ml,,₹100,veg,,TRUE
+BAR,Tequila / Liqueur,Camino,Tequila · 30ml,,₹250,veg,,TRUE
+BAR,Tequila / Liqueur,Jägermeister,Liqueur · 30ml,,₹299,veg,,TRUE
+BAR,Gin,Greater Than London Dry Gin,Gin · 30ml,,₹100,veg,,TRUE
+BAR,Gin,Tanqueray,Gin · 30ml,,₹199,veg,,TRUE
+BAR,Gin,Bombay Sapphire,Gin · 30ml,,₹250,veg,,TRUE
+BAR,Beers,Kingfisher Premium,330 ml,,₹100,non-veg,,TRUE
+BAR,Beers,Kingfisher Strong,330 ml,,₹110,non-veg,,TRUE
+BAR,Beers,Kingfisher Ultra,330 ml,,₹120,non-veg,,TRUE
+BAR,Beers,Heineken,330 ml,,₹130,veg,,TRUE
+BAR,Beers,Heineken Silver,330 ml,,₹140,veg,,TRUE
+BAR,Beers,Budweiser,330 ml,,₹130,veg,,TRUE
+BAR,Draught Beer,KF Premium Draught Mug,330 ml,,₹100,veg,,TRUE
+BAR,Draught Beer,KF Ultra Draught Mug,,,₹120,veg,,TRUE
+BAR,Draught Beer,KF Premium Draught Pitcher,1.5 L,,₹399,veg,,TRUE
+BAR,Draught Beer,KF Ultra Draught Pitcher,1.5 L,,₹499,veg,,TRUE
+BAR,Draught Beer,KF Premium Draught Tower,3 L,,₹750,veg,,TRUE
+BAR,Draught Beer,KF Ultra Draught Tower,3 L,,₹899,veg,,TRUE
+BAR,Cocktails,Mojito,,,₹249,veg,,TRUE
+BAR,Cocktails,Beer Mojito,,,₹249,veg,,TRUE
+BAR,Cocktails,Shandy,,,₹189,veg,,TRUE
+BAR,Cocktails,Boilermaker,,,₹299,veg,,TRUE
+BAR,Cocktails,Daiquiri,,,₹299,veg,,TRUE
+BAR,Cocktails,Margarita,,,₹349,veg,,TRUE
+BAR,Cocktails,Cosmopolitan,,,₹299,veg,,TRUE
+BAR,Cocktails,Tequila Sunrise,,,₹349,veg,,TRUE
+BAR,Cocktails,Pina Colada,,,₹299,veg,,TRUE
+BAR,Cocktails,Blue Lagoon,,,₹299,veg,,TRUE
+BAR,Cocktails,Long Island Iced Tea,,,₹499,veg,,TRUE
+BAR,Mocktails,Virgin Colada,,,₹249,veg,,TRUE
+BAR,Mocktails,Virgin Blue Lagoon,,,₹199,veg,,TRUE
+BAR,Mocktails,Virgin Mojito,,,₹199,veg,,TRUE
+BAR,Mocktails,Sunrise Special,,,₹199,veg,,TRUE
+BAR,Mocktails,Iced Tea Peach,,,₹199,veg,,TRUE
+BAR,Mocktails,Fresh Lime Soda,,,₹100,veg,,TRUE
+BAR,Mocktails,Fresh Lime Water,,,₹70,veg,,TRUE
+BAR,Soft Beverages,Pepsi / Coke / Thums Up,,,₹50,veg,,TRUE
+BAR,Soft Beverages,7UP / Sprite,,,₹50,veg,,TRUE
+BAR,Soft Beverages,Red Bull,,,₹160,veg,,TRUE
+BAR,Soft Beverages,Soda,,,₹20,veg,,TRUE
+HOT BEVERAGES,Coffee,Espresso,,,₹89,veg,,TRUE
+HOT BEVERAGES,Coffee,Americano,,,₹129,veg,,TRUE
+HOT BEVERAGES,Coffee,Cappuccino,,,₹179,veg,,TRUE
+HOT BEVERAGES,Coffee,Hazelnut Cappuccino,,,₹229,veg,,TRUE
+HOT BEVERAGES,Coffee,Caramel Cappuccino,,,₹229,veg,,TRUE
+HOT BEVERAGES,Coffee,Latte,,,₹199,veg,,TRUE
+HOT BEVERAGES,Coffee,Hazelnut Latte,,,₹249,veg,,TRUE
+HOT BEVERAGES,Coffee,Caramel Latte,,,₹249,veg,,TRUE
+HOT BEVERAGES,Coffee,Hot Mocha,,,₹199,veg,,TRUE
+HOT BEVERAGES,Coffee,Hot Chocolate,,,₹199,veg,,TRUE
+HOT BEVERAGES,Tea,Ginger Tea,,,₹89,veg,,TRUE
+HOT BEVERAGES,Tea,Tapri Masala Tea,,,₹89,veg,,TRUE
+HOT BEVERAGES,Tea,Green Tea,,,₹149,veg,,TRUE
+HOT BEVERAGES,Tea,Lemon Tea,,,₹159,veg,,TRUE
+HOT BEVERAGES,Tea,Assam Tea,,,₹89,veg,,TRUE
+COLD BEVERAGES,Cold Coffees,Iced Espresso,,,₹109,veg,,TRUE
+COLD BEVERAGES,Cold Coffees,Iced Americano,,,₹169,veg,,TRUE
+COLD BEVERAGES,Cold Coffees,Iced Mocha,,,₹249,veg,,TRUE
+COLD BEVERAGES,Cold Coffees,Iced Latte,,,₹219,veg,,TRUE
+COLD BEVERAGES,Cold Coffees,Iced Vanilla Latte,,,₹249,veg,,TRUE
+COLD BEVERAGES,Cold Coffees,Iced Spanish Latte,,,₹249,veg,,TRUE
+COLD BEVERAGES,Cold Coffees,Iced Biscoff Latte,,,₹249,veg,,TRUE
+COLD BEVERAGES,Cold Coffees,Classic Affogato,,,₹199,veg,,TRUE
+COLD BEVERAGES,Cold Coffees,Vietnamese Coffee,,,₹229,veg,,TRUE
+COLD BEVERAGES,Frappes,Classic Frappe,,,₹219,veg,,TRUE
+COLD BEVERAGES,Frappes,Caramel Frappe,,,₹239,veg,,TRUE
+COLD BEVERAGES,Frappes,Mocha Frappe,,,₹239,veg,,TRUE
+COLD BEVERAGES,Frappes,Hazelnut Frappe,,,₹239,veg,,TRUE
+COLD BEVERAGES,Frappes,Biscoff Frappe,,,₹249,veg,,TRUE
+COLD BEVERAGES,Shakes,Chocolate Shake,,,₹229,veg,,TRUE
+COLD BEVERAGES,Shakes,Oreo Shake,,,₹229,veg,,TRUE
+COLD BEVERAGES,Shakes,Brownie Shake,,,₹249,veg,,TRUE
+COLD BEVERAGES,Smoothies,Berry Blast,,,₹269,veg,,TRUE
+COLD BEVERAGES,Smoothies,Tropical Delight,,,₹269,veg,,TRUE
+COLD BEVERAGES,Smoothies,Desert Dates,,,₹269,veg,,TRUE
+COLD BEVERAGES,Smoothies,Peanut Butter,,,₹269,veg,,TRUE

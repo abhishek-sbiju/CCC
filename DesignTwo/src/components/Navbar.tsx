@@ -25,13 +25,13 @@ const Navbar = () => {
 
   return (
     <nav ref={navRef} className="fixed top-0 left-0 right-0 z-50 bg-background backdrop-blur-sm border-b border-border">
-      <div className="flex items-center justify-between px-4 md:px-8 py-2.5 md:py-3">
-        <a href="tel:+19999999999" className="flex items-center gap-1.5 text-muted-foreground hover:text-foreground transition-colors text-xs font-body">
+      <div className="flex items-center justify-between px-3 md:px-8 py-1.5 md:py-3">
+        <a href="tel:+19999999999" className="flex items-center gap-1 text-muted-foreground hover:text-foreground transition-colors text-[11px] md:text-xs font-body leading-none">
           <Phone size={12} className="shrink-0" />
           <span className="hidden sm:inline">+1 999-999-9999</span>
         </a>
 
-        <p className="font-heading text-base md:text-lg font-semibold tracking-[0.14em] md:tracking-[0.16em] text-foreground m-0">
+        <p className="font-heading text-sm md:text-lg font-semibold tracking-[0.12em] md:tracking-[0.16em] text-foreground m-0 leading-none md:leading-normal">
           DEMO CAFE
         </p>
 

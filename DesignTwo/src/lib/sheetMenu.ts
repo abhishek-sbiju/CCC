@@ -11,8 +11,8 @@ import type {
  * See SETUP.md at the project root.
  */
 export const SHEET_CONFIG = {
-  sheetId: "1xORy2eVg0qnDMW2BV2eh5EhVhERHZjcp2uhzZOXidJ0",
-  gid: "651904924",
+  sheetId: "1kJGk67jEl23U-w7A-vc5ywkipkAlmkz9Atu_zAjP-oU",
+  gid: "1906695727",
 } as const;
 
 const CURRENCY = "₹";
@@ -268,11 +268,24 @@ function transformRows(rows: SheetRow[]): MenuCategory[] {
   return categories;
 }
 
+/** Bar + hot/cold drinks always last in the nav, even if the sheet rows list them first. */
+const TRAILING_CATEGORY_IDS = ["bar", "hot-beverages", "cold-beverages"] as const;
+
+function reorderCategories(categories: MenuCategory[]): MenuCategory[] {
+  const byId = new Map(categories.map((c) => [c.id, c]));
+  const trail = TRAILING_CATEGORY_IDS.map((id) => byId.get(id)).filter(
+    (c): c is MenuCategory => Boolean(c),
+  );
+  const trailSet = new Set<string>(TRAILING_CATEGORY_IDS);
+  const rest = categories.filter((c) => !trailSet.has(c.id));
+  return [...rest, ...trail];
+}
+
 // ---------------------------------------------------------------------------
 // Public: fetch + transform
 // ---------------------------------------------------------------------------
 
 export async function fetchMenuCategories(): Promise<MenuCategory[]> {
   const rows = await fetchSheetRows();
-  return transformRows(rows);
+  return reorderCategories(transformRows(rows));
 }
