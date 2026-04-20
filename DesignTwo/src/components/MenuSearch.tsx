@@ -39,7 +39,7 @@ const MenuSearch = () => {
         className="text-muted-foreground hover:text-foreground transition-colors flex items-center gap-2" 
         aria-label="Search"
       >
-        <Search size={20} />
+        <Search size={18} />
       </button>
       <CommandDialog open={open} onOpenChange={setOpen}>
         <CommandInput placeholder="Search the menu... (Cmd+K)" />

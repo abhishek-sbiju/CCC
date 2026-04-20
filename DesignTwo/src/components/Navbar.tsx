@@ -25,20 +25,20 @@ const Navbar = () => {
 
   return (
     <nav ref={navRef} className="fixed top-0 left-0 right-0 z-50 bg-background backdrop-blur-sm border-b border-border">
-      <div className="flex items-center justify-between px-4 md:px-8 py-3">
-        <a href="tel:+19999999999" className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors text-sm font-body">
-          <Phone size={14} />
+      <div className="flex items-center justify-between px-4 md:px-8 py-2.5 md:py-3">
+        <a href="tel:+19999999999" className="flex items-center gap-1.5 text-muted-foreground hover:text-foreground transition-colors text-xs font-body">
+          <Phone size={12} className="shrink-0" />
           <span className="hidden sm:inline">+1 999-999-9999</span>
         </a>
-        
-        <p className="font-heading text-xl md:text-2xl font-semibold tracking-[0.2em] text-foreground m-0">
+
+        <p className="font-heading text-base md:text-lg font-semibold tracking-[0.14em] md:tracking-[0.16em] text-foreground m-0">
           DEMO CAFE
         </p>
-        
-        <div className="flex items-center gap-4">
+
+        <div className="flex items-center gap-3 md:gap-4">
           <a
             href="tel:+19999999999"
-            className="hidden md:inline-block px-5 py-2 border border-gold text-gold text-xs tracking-[0.15em] font-body font-medium hover:bg-gold hover:text-primary-foreground transition-all"
+            className="hidden md:inline-block px-4 py-1.5 border border-gold text-gold text-[10px] tracking-[0.12em] font-body font-medium hover:bg-gold hover:text-primary-foreground transition-all"
           >
             BOOK A TABLE
           </a>
