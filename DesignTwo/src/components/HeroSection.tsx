@@ -65,29 +65,34 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-background/50" />
       <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/55 pointer-events-none" />
 
-      <div className="relative z-10 text-center px-4">
-        <p className="font-heading italic text-gold-light text-xl md:text-2xl mb-2 animate-fade-in">
+      <div className="relative z-10 text-center px-3 sm:px-4 max-w-5xl mx-auto">
+        <p className="font-body text-xs sm:text-sm tracking-[0.35em] sm:tracking-[0.4em] uppercase text-gold-light mb-3 sm:mb-4 animate-fade-in">
           Welcome to
         </p>
-        <h2
-          className="font-heading text-4xl md:text-7xl lg:text-8xl font-bold tracking-[0.1em] text-foreground mb-6 animate-fade-in"
-          style={{ animationDelay: "0.2s" }}
+
+        <h1
+          className="font-heading text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-bold tracking-[0.1em] sm:tracking-[0.12em] text-white mb-4 sm:mb-5 leading-[0.92] sm:leading-[0.95] animate-fade-in px-1"
+          style={{
+            animationDelay: "0.15s",
+            textShadow:
+              "0 2px 20px rgba(0,0,0,0.6), 0 4px 48px rgba(0,0,0,0.35), 0 0 1px rgba(0,0,0,0.8)",
+          }}
         >
           DEMO CAFE
-        </h2>
+        </h1>
 
         <div
-          className="flex items-center justify-center gap-3 mb-6 animate-fade-in"
-          style={{ animationDelay: "0.3s" }}
+          className="flex items-center justify-center gap-3 sm:gap-4 mb-4 sm:mb-5 animate-fade-in"
+          style={{ animationDelay: "0.25s" }}
         >
-          <span className="w-12 h-[1px] bg-gold" />
-          <span className="w-2 h-2 bg-gold rotate-45" />
-          <span className="w-12 h-[1px] bg-gold" />
+          <span className="w-12 sm:w-16 h-px bg-gradient-to-r from-transparent to-gold" />
+          <span className="w-1.5 h-1.5 rounded-full bg-gold shrink-0" />
+          <span className="w-12 sm:w-16 h-px bg-gradient-to-l from-transparent to-gold" />
         </div>
 
         <p
-          className="font-body text-muted-foreground text-sm md:text-base tracking-wide mb-8 animate-fade-in"
-          style={{ animationDelay: "0.4s" }}
+          className="font-heading text-lg sm:text-xl md:text-2xl lg:text-3xl italic text-gold-light tracking-wide sm:tracking-widest text-balance mb-8 sm:mb-10 animate-fade-in max-w-2xl mx-auto"
+          style={{ animationDelay: "0.35s" }}
         >
           Explore our menu — a celebration of flavors from Goa and beyond
         </p>

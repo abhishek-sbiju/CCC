@@ -31,9 +31,9 @@ const Navbar = () => {
           <span className="hidden sm:inline">+1 999-999-9999</span>
         </a>
         
-        <h1 className="font-heading text-xl md:text-2xl font-semibold tracking-[0.2em] text-foreground">
+        <p className="font-heading text-xl md:text-2xl font-semibold tracking-[0.2em] text-foreground m-0">
           DEMO CAFE
-        </h1>
+        </p>
         
         <div className="flex items-center gap-4">
           <a
