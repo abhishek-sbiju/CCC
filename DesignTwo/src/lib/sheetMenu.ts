@@ -147,12 +147,27 @@ function formatPrice(raw: string): string {
   return `${CURRENCY}${v}`;
 }
 
+/** Strip spaces and leading currency for comparing two formatted prices. */
+function priceTokenKey(p: string): string {
+  return String(p).replace(/\s/g, "").replace(/^₹/u, "");
+}
+
+/** Append a variant price; skip if it matches the last segment (same tier, e.g. Paneer + Chicken). */
+function appendMergedPrice(existing: string | undefined, addition: string): string {
+  if (!addition) return existing ?? "";
+  if (!existing) return addition;
+  const parts = existing.split(/\s*\/\s*/);
+  const last = parts[parts.length - 1] ?? "";
+  if (priceTokenKey(last) === priceTokenKey(addition)) return existing;
+  return `${existing} / ${addition}`;
+}
+
 /**
  * Fold multiple variant-rows of the same dish into a single MenuItem.
  *
- * Rows are treated as "the same item" when Name + Description + Variant
- * match (case-insensitive, trimmed). This keeps one sheet row per variant
- * as one menu line; slash-separated multi-variant cells stay a single row.
+ * Rows match when Name + Description match (case-insensitive). Variants and
+ * prices are joined with " / " so the menu reads: dish · tags · Veg / … ·
+ * ₹… / ₹…. One sheet row with slash-separated Variant stays one item.
  */
 function mergeVariantRows(rows: SheetRow[]): MenuItem[] {
   const items: MenuItem[] = [];
@@ -164,7 +179,7 @@ function mergeVariantRows(rows: SheetRow[]): MenuItem[] {
 
     const key = `${name.toLowerCase()}|${(row.Description || "")
       .toLowerCase()
-      .trim()}|${(row.Variant || "").toLowerCase().trim()}`;
+      .trim()}`;
 
     const existing = index.get(key);
     if (existing === undefined) {
@@ -190,7 +205,7 @@ function mergeVariantRows(rows: SheetRow[]): MenuItem[] {
           : newVariant;
       }
       if (newPrice) {
-        item.price = item.price ? `${item.price} / ${newPrice}` : newPrice;
+        item.price = appendMergedPrice(item.price, newPrice);
       }
       if (newDiet && item.dietType && item.dietType !== newDiet) {
         item.dietType = "both";
