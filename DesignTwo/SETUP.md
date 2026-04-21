@@ -5,7 +5,7 @@ done. No developer needed.
 
 ## The Sheet
 
-<https://docs.google.com/spreadsheets/d/1kJGk67jEl23U-w7A-vc5ywkipkAlmkz9Atu_zAjP-oU/edit?gid=1906695727>
+<https://docs.google.com/spreadsheets/d/1KzPXHdxse41XHdM29GGvOCq06JdhvdemfzsXjwFmeos/edit?gid=1916948727>
 
 The sheet ID and tab gid are wired into `src/lib/sheetMenu.ts`. You don't
 need to change any code to edit the menu — just edit cells in the sheet.

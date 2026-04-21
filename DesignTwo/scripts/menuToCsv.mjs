@@ -76,8 +76,50 @@ const headers = [
 
 const rows = [headers.join(",")];
 
+const splitParts = (value) =>
+  String(value ?? "")
+    .split("/")
+    .map((v) => v.trim())
+    .filter(Boolean);
+
+const normalizePrice = (value) => String(value ?? "").trim().replace(/^₹\s*/, "");
+
 for (const cat of menuCategories) {
   const pushItem = (subName, item) => {
+    const variantParts = splitParts(item.variants);
+    const priceParts = splitParts(item.price).map(normalizePrice);
+    const tags = item.tags ? item.tags.join("; ") : "";
+
+    // Madras-style row format:
+    // - if variants match prices 1:1, split rows
+    // - if variants are many but one price is given, repeat that price per variant
+    if (variantParts.length > 0 && (variantParts.length === priceParts.length || priceParts.length === 1)) {
+      const expandedPrices =
+        priceParts.length === 1
+          ? Array.from({ length: variantParts.length }, () => priceParts[0])
+          : priceParts;
+      for (let i = 0; i < variantParts.length; i++) {
+        const variant = variantParts[i];
+        const dietType = getDietType({ ...item, variants: variant });
+        rows.push(
+          [
+            cat.title,
+            subName ?? "",
+            item.name,
+            item.description ?? "",
+            variant,
+            expandedPrices[i],
+            dietType,
+            tags,
+            "TRUE",
+          ]
+            .map(escape)
+            .join(",")
+        );
+      }
+      return;
+    }
+
     rows.push(
       [
         cat.title,
@@ -85,9 +127,9 @@ for (const cat of menuCategories) {
         item.name,
         item.description ?? "",
         item.variants ?? "",
-        item.price,
+        normalizePrice(item.price),
         getDietType(item),
-        item.tags ? item.tags.join("; ") : "",
+        tags,
         "TRUE",
       ]
         .map(escape)

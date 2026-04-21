@@ -11,8 +11,8 @@ import type {
  * See SETUP.md at the project root.
  */
 export const SHEET_CONFIG = {
-  sheetId: "1kJGk67jEl23U-w7A-vc5ywkipkAlmkz9Atu_zAjP-oU",
-  gid: "1906695727",
+  sheetId: "1KzPXHdxse41XHdM29GGvOCq06JdhvdemfzsXjwFmeos",
+  gid: "1916948727",
 } as const;
 
 const CURRENCY = "₹";
