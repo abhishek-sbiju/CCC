@@ -79,6 +79,16 @@ h6,
   white-space: nowrap;
 }
 
+/* Intro row: FB / IG / TA — warm gold (matches DesignTwo link hover) */
+.intro-block-content__social a {
+  color: #e8d5a4;
+}
+
+.intro-block-content__social a:hover,
+.intro-block-content__social a:focus {
+  color: var(--color-text-bold);
+}
+
 .header-contact__num svg {
   color: var(--color-link) !important;
 }
