@@ -1,0 +1,154 @@
+/* Cafe Chai Coffee — aligns static CafeTwo template with DesignTwo palette & type */
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --font-1: "Montserrat", system-ui, sans-serif;
+  --font-2: "Cormorant Garamond", "Times New Roman", serif;
+
+  --color-bg: #0f0e0c;
+  --color-bg-inverse: #3d3a36;
+
+  --color-bg-primary: #1a2820;
+  --color-bg-primary-light: #24362b;
+  --color-bg-primary-dark: #121c17;
+
+  --color-bg-accent: #b8892a;
+  --color-bg-accent-light: #c9a227;
+  --color-bg-accent-dark: #967321;
+
+  --color-bg-secondary: #c9a227;
+  --color-bg-secondary-light: #d4ae4a;
+  --color-bg-secondary-dark: #a98a1f;
+
+  --color-bg-neutral: #1a1917;
+  --color-bg-neutral-light: #242220;
+  --color-bg-neutral-dark: #121110;
+
+  --color-border: #2a2824;
+
+  --color-text: #c9c2b6;
+  --color-text-bold: #f5f0e8;
+  --color-text-light: #8a8478;
+  --color-headings: #f2ebe1;
+  --color-placeholder: #7a756c;
+
+  --color-link: #d4b060;
+  --color-link-hover: #e8d5a4;
+  --color-link-active: #e8d5a4;
+
+  --color-btn: #1a1917;
+  --color-btn-text: #f5f0e8;
+  --color-btn-hover: #242220;
+  --color-btn-hover-text: #f5f0e8;
+
+  --color-btn-primary: #c9a227;
+  --color-btn-primary-text: #0f0e0c;
+  --color-btn-primary-hover: #a98a1f;
+  --color-btn-primary-hover-text: #0f0e0c;
+
+  --color-btn-ghost: #c9a227;
+  --color-btn-ghost-text: #c9a227;
+  --color-btn-ghost-hover: #c9a227;
+  --color-btn-ghost-hover-text: #0f0e0c;
+
+  --color-preloader-bg: var(--color-bg);
+  --color-loader: #6a655c;
+  --color-loader-light: #d4b060;
+}
+
+body {
+  font-family: var(--font-1);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.text-display-title {
+  font-family: var(--font-2);
+}
+
+.ss-home .intro-header__overline {
+  color: hsl(40 42% 74%);
+}
+
+/* Keep “Cafe Chai” on one line; “Coffee” on the line below */
+.hero-brand-line1 {
+  white-space: nowrap;
+}
+
+.header-contact__num svg {
+  color: var(--color-link) !important;
+}
+
+.s-footer__social a svg path,
+.s-footer__social a svg circle {
+  fill: currentColor;
+}
+
+.s-footer__social a {
+  color: var(--color-text);
+}
+
+.s-footer__social a:hover,
+.s-footer__social a:focus {
+  color: var(--color-link);
+}
+
+/* Logo mark — transparent PNG; sits directly on the dark bar */
+.header-logo__link {
+  --ccc-logo-max: clamp(4.5rem, 14vw, 8.5rem);
+  display: block;
+  line-height: 0;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  /* Fill most of the header height */
+  width: min(var(--ccc-logo-max), calc(var(--header-height) - 0.4rem));
+  aspect-ratio: 1;
+  flex-shrink: 0;
+}
+
+.s-footer__logo .footer-logo__link {
+  display: block;
+  line-height: 0;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  width: clamp(4rem, 10vw, 6rem);
+  aspect-ratio: 1;
+}
+
+.header-logo .ccc-logo-img,
+.s-footer__logo .ccc-logo-img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+  object-position: center;
+  margin: 0;
+  /* Warm into page palette + soft shadow that reads as depth, not a box */
+  filter:
+    brightness(1.04) contrast(1.04) saturate(0.92)
+    drop-shadow(0 1px 0 rgba(15, 14, 12, 0.8))
+    drop-shadow(0 6px 18px rgba(15, 14, 12, 0.55));
+  transition: filter 0.25s ease;
+}
+
+.header-logo__link:hover .ccc-logo-img,
+.header-logo__link:focus .ccc-logo-img,
+.s-footer__logo .footer-logo__link:hover .ccc-logo-img,
+.s-footer__logo .footer-logo__link:focus .ccc-logo-img {
+  filter:
+    brightness(1.1) contrast(1.06) saturate(0.96)
+    drop-shadow(0 1px 0 rgba(15, 14, 12, 0.85))
+    drop-shadow(0 8px 22px rgba(201, 162, 39, 0.22));
+}
+
+@media screen and (max-width: 900px) {
+  .header-logo__link {
+    --ccc-logo-max: clamp(4rem, 20vw, 5.5rem);
+  }
+}

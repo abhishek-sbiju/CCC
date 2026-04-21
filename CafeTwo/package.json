@@ -1,7 +1,7 @@
 {
   "name": "cafe-two",
   "version": "1.0.0",
-  "description": "Lounge – static cafe website",
+  "description": "Cafe Chai Coffee — static marketing site (CCC Goa)",
   "scripts": {
     "dev": "npx serve . --listen 3000",
     "start": "npx serve ."

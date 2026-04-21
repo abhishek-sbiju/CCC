@@ -4,6 +4,7 @@ import { ChevronDown } from "lucide-react";
 import heroBg1 from "@/assets/hero-bg-1.jpg";
 import heroBg2 from "@/assets/hero-bg-2.jpg";
 import heroBg3 from "@/assets/hero-bg-3.jpg";
+import { PUBLIC_MENU_URL } from "@/lib/site";
 
 const heroImages = [heroBg1, heroBg2, heroBg3];
 const DISPLAY_MS = 7000;
@@ -71,14 +72,16 @@ const HeroSection = () => {
         </p>
 
         <h1
-          className="font-heading text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold uppercase tracking-[0.08em] sm:tracking-[0.11em] md:tracking-[0.13em] lg:tracking-[0.15em] text-white mb-4 sm:mb-5 leading-[0.92] sm:leading-[0.95] animate-fade-in px-1 text-balance max-w-[min(100%,22rem)] sm:max-w-none mx-auto"
+          className="font-heading text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold uppercase tracking-[0.08em] sm:tracking-[0.11em] md:tracking-[0.13em] lg:tracking-[0.15em] text-white mb-4 sm:mb-5 leading-[0.92] sm:leading-[0.95] animate-fade-in px-1 text-balance max-w-none mx-auto"
           style={{
             animationDelay: "0.15s",
             textShadow:
               "0 2px 20px rgba(0,0,0,0.6), 0 4px 48px rgba(0,0,0,0.35), 0 0 1px rgba(0,0,0,0.8)",
           }}
         >
-          Cafe Chai Coffee
+          <span className="whitespace-nowrap">Cafe Chai</span>
+          <br />
+          Coffee
         </h1>
 
         <div
@@ -101,12 +104,14 @@ const HeroSection = () => {
           className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in"
           style={{ animationDelay: "0.5s" }}
         >
-          <button
-            onClick={scrollToMenu}
-            className="px-8 py-3 bg-gold/90 text-primary-foreground text-[11px] tracking-[0.18em] font-body font-semibold hover:bg-gold transition-all"
+          <a
+            href={PUBLIC_MENU_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center px-8 py-3 bg-gold/90 text-primary-foreground text-[11px] tracking-[0.18em] font-body font-semibold hover:bg-gold transition-all"
           >
             VIEW MENU
-          </button>
+          </a>
           <a
             href="tel:+918551894992"
             className="px-8 py-3 border border-gold/50 text-gold-light text-[11px] tracking-[0.18em] font-body font-semibold hover:bg-gold/10 transition-all"
