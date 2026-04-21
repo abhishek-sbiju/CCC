@@ -108,7 +108,7 @@ const HeroSection = () => {
             VIEW MENU
           </button>
           <a
-            href="tel:+19999999999"
+            href="tel:+918551894992"
             className="px-8 py-3 border border-gold/50 text-gold-light text-xs tracking-[0.2em] font-body font-semibold hover:bg-gold/10 transition-all"
           >
             BOOK A TABLE
