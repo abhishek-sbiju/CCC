@@ -66,12 +66,12 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/55 pointer-events-none" />
 
       <div className="relative z-10 text-center px-3 sm:px-4 max-w-5xl mx-auto">
-        <p className="font-body text-xs sm:text-sm tracking-[0.35em] sm:tracking-[0.4em] uppercase text-gold-light mb-3 sm:mb-4 animate-fade-in">
+        <p className="font-heading italic text-base sm:text-lg md:text-xl tracking-[0.05em] text-gold-light mb-2 sm:mb-3 animate-fade-in">
           Welcome to
         </p>
 
         <h1
-          className="font-heading text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-bold uppercase tracking-[0.08em] sm:tracking-[0.12em] md:tracking-[0.14em] lg:tracking-[0.16em] text-white mb-4 sm:mb-5 leading-[0.92] sm:leading-[0.95] animate-fade-in px-1 text-balance max-w-[min(100%,22rem)] sm:max-w-none mx-auto"
+          className="font-heading text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold uppercase tracking-[0.08em] sm:tracking-[0.11em] md:tracking-[0.13em] lg:tracking-[0.15em] text-white mb-4 sm:mb-5 leading-[0.92] sm:leading-[0.95] animate-fade-in px-1 text-balance max-w-[min(100%,22rem)] sm:max-w-none mx-auto"
           style={{
             animationDelay: "0.15s",
             textShadow:
@@ -91,7 +91,7 @@ const HeroSection = () => {
         </div>
 
         <p
-          className="font-heading text-lg sm:text-xl md:text-2xl lg:text-3xl italic text-gold-light tracking-wide sm:tracking-widest text-balance mb-8 sm:mb-10 animate-fade-in max-w-2xl mx-auto"
+          className="font-body text-xs sm:text-sm md:text-base text-gold-light tracking-wide text-balance mb-8 sm:mb-10 animate-fade-in max-w-2xl mx-auto"
           style={{ animationDelay: "0.35s" }}
         >
           Explore our menu — a celebration of flavors from Goa and beyond
@@ -103,13 +103,13 @@ const HeroSection = () => {
         >
           <button
             onClick={scrollToMenu}
-            className="px-8 py-3 bg-gold/90 text-primary-foreground text-xs tracking-[0.2em] font-body font-semibold hover:bg-gold transition-all"
+            className="px-8 py-3 bg-gold/90 text-primary-foreground text-[11px] tracking-[0.18em] font-body font-semibold hover:bg-gold transition-all"
           >
             VIEW MENU
           </button>
           <a
             href="tel:+918551894992"
-            className="px-8 py-3 border border-gold/50 text-gold-light text-xs tracking-[0.2em] font-body font-semibold hover:bg-gold/10 transition-all"
+            className="px-8 py-3 border border-gold/50 text-gold-light text-[11px] tracking-[0.18em] font-body font-semibold hover:bg-gold/10 transition-all"
           >
             BOOK A TABLE
           </a>
@@ -144,3 +144,4 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+

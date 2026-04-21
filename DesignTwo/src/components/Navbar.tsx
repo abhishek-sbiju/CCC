@@ -31,7 +31,7 @@ const Navbar = () => {
           <span className="hidden sm:inline">+91 85518 94992</span>
         </a>
 
-        <p className="font-heading text-xs sm:text-base md:text-xl font-bold uppercase tracking-[0.14em] sm:tracking-[0.16em] md:tracking-[0.2em] text-white m-0 leading-tight sm:leading-snug md:leading-normal text-center px-1 min-w-0 shrink [text-shadow:0_1px_3px_rgba(0,0,0,0.95),0_2px_14px_rgba(0,0,0,0.45)]">
+        <p className="font-heading text-[11px] sm:text-sm md:text-base font-bold uppercase tracking-[0.14em] sm:tracking-[0.16em] md:tracking-[0.18em] text-white m-0 leading-tight sm:leading-snug md:leading-normal text-center px-1 min-w-0 shrink [text-shadow:0_1px_3px_rgba(0,0,0,0.95),0_2px_14px_rgba(0,0,0,0.45)]">
           Cafe Chai Coffee
         </p>
 
@@ -50,3 +50,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
