@@ -67,7 +67,7 @@
                     <ul class="header-nav__links">
                         <li class="current"><a class="smoothscroll" href="#intro">Intro</a></li>
                         <li><a class="smoothscroll" href="#about">About</a></li>
-                        <li><a class="smoothscroll" href="#menu">Menu</a></li>
+                        <li><a class="js-menu-redirect" href="https://ccc-menu.vercel.app/" rel="noopener">Menu</a></li>
                         <li><a class="smoothscroll" href="#gallery">Gallery</a></li>
                     </ul> <!-- end header-nav__links -->  
                     
@@ -677,11 +677,19 @@
 
     </div> <!-- end page-wrap -->
 
+    <!-- Menu redirect splash -->
+    <div id="ccc-menu-splash" class="ccc-menu-splash" role="status" aria-live="polite" aria-hidden="true">
+        <img src="images/ccc-logo-mark.png" alt="Cafe Chai Coffee" class="ccc-menu-splash__logo" width="352" height="352" decoding="async" />
+        <p class="ccc-menu-splash__label">Brewing your menu</p>
+        <span class="ccc-menu-splash__dots" aria-hidden="true"><span></span><span></span><span></span></span>
+    </div>
+
 
     <!-- Java Script
     ================================================== -->
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/ccc-menu-splash.js"></script>
 
 </body>
 </html>

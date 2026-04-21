@@ -152,3 +152,94 @@ h6,
     --ccc-logo-max: clamp(4rem, 20vw, 5.5rem);
   }
 }
+
+/* --------------------------------------------------------------------
+ * Menu redirect splash
+ * -------------------------------------------------------------------- */
+html.ccc-splash-on,
+html.ccc-splash-on body {
+  overflow: hidden;
+}
+
+.ccc-menu-splash {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(1.25rem, 3vw, 2rem);
+  background:
+    radial-gradient(ellipse at 50% 40%, rgba(201, 162, 39, 0.08), transparent 60%),
+    var(--color-bg, #0f0e0c);
+  color: var(--color-text, #c9c2b6);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.35s ease, visibility 0s linear 0.35s;
+}
+
+.ccc-menu-splash.is-visible {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transition: opacity 0.35s ease, visibility 0s linear 0s;
+}
+
+.ccc-menu-splash__logo {
+  width: clamp(12rem, 38vw, 22rem);
+  aspect-ratio: 1;
+  display: block;
+  object-fit: contain;
+  filter:
+    drop-shadow(0 2px 0 rgba(15, 14, 12, 0.85))
+    drop-shadow(0 18px 48px rgba(15, 14, 12, 0.7))
+    drop-shadow(0 0 36px rgba(201, 162, 39, 0.22));
+  animation: ccc-splash-logo 1.8s ease-in-out infinite;
+}
+
+@keyframes ccc-splash-logo {
+  0%, 100% { transform: scale(1); }
+  50%      { transform: scale(1.035); }
+}
+
+.ccc-menu-splash__label {
+  font-family: var(--font-2, "Cormorant Garamond", serif);
+  font-style: italic;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-size: clamp(0.85rem, 1.4vw, 1.05rem);
+  color: var(--color-text-light, #8a8478);
+  margin: 0;
+}
+
+.ccc-menu-splash__dots {
+  display: inline-flex;
+  gap: 0.45rem;
+  margin-top: 0.35rem;
+}
+
+.ccc-menu-splash__dots span {
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 50%;
+  background: var(--color-link, #d4b060);
+  opacity: 0.3;
+  animation: ccc-splash-dot 1s ease-in-out infinite;
+}
+
+.ccc-menu-splash__dots span:nth-child(2) { animation-delay: 0.15s; }
+.ccc-menu-splash__dots span:nth-child(3) { animation-delay: 0.3s; }
+
+@keyframes ccc-splash-dot {
+  0%, 100% { opacity: 0.25; transform: translateY(0); }
+  50%      { opacity: 1;    transform: translateY(-3px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ccc-menu-splash__logo,
+  .ccc-menu-splash__dots span {
+    animation: none;
+  }
+}
