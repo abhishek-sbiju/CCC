@@ -1,7 +1,6 @@
 import { Phone } from "lucide-react";
 import { useRef, useLayoutEffect } from "react";
 import MenuSearch from "./MenuSearch";
-import { PUBLIC_MENU_URL } from "@/lib/site";
 
 const Navbar = () => {
   const navRef = useRef<HTMLElement>(null);
@@ -53,14 +52,6 @@ const Navbar = () => {
         </p>
 
         <div className="flex flex-1 basis-0 items-center justify-end gap-2 md:gap-4">
-          <a
-            href={PUBLIC_MENU_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hidden sm:inline-flex items-center px-2 md:px-3 py-[8px] text-gold text-[10px] tracking-[0.14em] font-body font-semibold hover:text-gold-light transition-colors"
-          >
-            MENU
-          </a>
           <a
             href="tel:+918551894992"
             className="hidden md:inline-block px-4 py-[8px] border border-gold text-gold text-[10px] tracking-[0.12em] font-body font-medium hover:bg-gold hover:text-primary-foreground transition-all"
