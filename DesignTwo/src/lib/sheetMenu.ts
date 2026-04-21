@@ -11,8 +11,8 @@ import type {
  * See SETUP.md at the project root.
  */
 export const SHEET_CONFIG = {
-  sheetId: "1KzPXHdxse41XHdM29GGvOCq06JdhvdemfzsXjwFmeos",
-  gid: "1916948727",
+  sheetId: "1q8LaVr8VJQ5EuPZHQdTUNeWjgku6fGixxbfLd71V1RE",
+  gid: "1407695428",
 } as const;
 
 const CURRENCY = "₹";
@@ -150,9 +150,9 @@ function formatPrice(raw: string): string {
 /**
  * Fold multiple variant-rows of the same dish into a single MenuItem.
  *
- * Rows are treated as "the same item" when Name + Description match
- * (case-insensitive, trimmed). Their Variant + Price + DietType + Tags
- * are collected in the order they appear.
+ * Rows are treated as "the same item" when Name + Description + Variant
+ * match (case-insensitive, trimmed). This keeps one sheet row per variant
+ * as one menu line; slash-separated multi-variant cells stay a single row.
  */
 function mergeVariantRows(rows: SheetRow[]): MenuItem[] {
   const items: MenuItem[] = [];
@@ -164,7 +164,7 @@ function mergeVariantRows(rows: SheetRow[]): MenuItem[] {
 
     const key = `${name.toLowerCase()}|${(row.Description || "")
       .toLowerCase()
-      .trim()}`;
+      .trim()}|${(row.Variant || "").toLowerCase().trim()}`;
 
     const existing = index.get(key);
     if (existing === undefined) {

@@ -21,10 +21,18 @@ BAO BUNS,Fusion Baos,Butter Masala Bao,,Chicken,199,non-veg,,TRUE
 BAO BUNS,Fusion Baos,Original Crispy Veg Bao,2 pcs,,349,veg,popular,TRUE
 BAO BUNS,Oriental Baos,Teriyaki Bao,,Paneer,199,veg,,TRUE
 BAO BUNS,Oriental Baos,Teriyaki Bao,,Chicken,199,non-veg,,TRUE
-BAO BUNS,Oriental Baos,Chilli Basil Bao,,Veg / Paneer / Chicken,179 / ₹199,both,,TRUE
-BAO BUNS,Oriental Baos,Hot Garlic Bao,,Veg / Paneer / Chicken,179 / ₹199,both,,TRUE
-BAO BUNS,Oriental Baos,Schezwan Bao,,Veg / Paneer / Chicken,179 / ₹199,both,,TRUE
-BAO BUNS,Oriental Baos,Manchurian Bao,,Veg / Paneer / Chicken,179 / ₹199,both,,TRUE
+BAO BUNS,Oriental Baos,Chilli Basil Bao,,Veg,179,veg,,TRUE
+BAO BUNS,Oriental Baos,Chilli Basil Bao,,Paneer,199,veg,,TRUE
+BAO BUNS,Oriental Baos,Chilli Basil Bao,,Chicken,199,non-veg,,TRUE
+BAO BUNS,Oriental Baos,Hot Garlic Bao,,Veg,179,veg,,TRUE
+BAO BUNS,Oriental Baos,Hot Garlic Bao,,Paneer,199,veg,,TRUE
+BAO BUNS,Oriental Baos,Hot Garlic Bao,,Chicken,199,non-veg,,TRUE
+BAO BUNS,Oriental Baos,Schezwan Bao,,Veg,179,veg,,TRUE
+BAO BUNS,Oriental Baos,Schezwan Bao,,Paneer,199,veg,,TRUE
+BAO BUNS,Oriental Baos,Schezwan Bao,,Chicken,199,non-veg,,TRUE
+BAO BUNS,Oriental Baos,Manchurian Bao,,Veg,179,veg,,TRUE
+BAO BUNS,Oriental Baos,Manchurian Bao,,Paneer,199,veg,,TRUE
+BAO BUNS,Oriental Baos,Manchurian Bao,,Chicken,199,non-veg,,TRUE
 SANDWICHES,,Classic Club,,Veg,269,veg,,TRUE
 SANDWICHES,,Classic Club,,Chicken,299,non-veg,,TRUE
 SANDWICHES,,Tikka Sandwich,,Paneer,299,veg,,TRUE
@@ -71,9 +79,15 @@ APPETIZERS,,Crunchy Nacho Fiesta,,,289,veg,,TRUE
 ASIAN APPETIZERS,,Butter Garlic Chicken,,,359,non-veg,,TRUE
 ASIAN APPETIZERS,,Spring Rolls,,Veg,239,veg,,TRUE
 ASIAN APPETIZERS,,Spring Rolls,,Chicken,279,non-veg,,TRUE
-ASIAN APPETIZERS,,Manchurian Dry,,Gobi / Paneer / Chicken,289 / ₹339,both,,TRUE
-ASIAN APPETIZERS,,Chilli Dry,,Mushroom / Paneer / Chicken,329 / ₹339,both,,TRUE
-ASIAN APPETIZERS,,Salt & Pepper,,Veg / Paneer / Chicken,289 / ₹339,both,,TRUE
+ASIAN APPETIZERS,,Manchurian Dry,,Gobi,289,veg,,TRUE
+ASIAN APPETIZERS,,Manchurian Dry,,Paneer,339,veg,,TRUE
+ASIAN APPETIZERS,,Manchurian Dry,,Chicken,339,non-veg,,TRUE
+ASIAN APPETIZERS,,Chilli Dry,,Mushroom,329,veg,,TRUE
+ASIAN APPETIZERS,,Chilli Dry,,Paneer,339,veg,,TRUE
+ASIAN APPETIZERS,,Chilli Dry,,Chicken,339,non-veg,,TRUE
+ASIAN APPETIZERS,,Salt & Pepper,,Veg,289,veg,,TRUE
+ASIAN APPETIZERS,,Salt & Pepper,,Paneer,339,veg,,TRUE
+ASIAN APPETIZERS,,Salt & Pepper,,Chicken,339,non-veg,,TRUE
 ASIAN APPETIZERS,,Honey Chilli Potatoes,,,269,veg,,TRUE
 ASIAN APPETIZERS,,Potato Poppers,,,229,veg,,TRUE
 CHICKEN WINGS,,Chicken Lollypop,,,349,non-veg,,TRUE
@@ -153,14 +167,22 @@ NOODLES & RICE,,Schezwan Noodles,,Veg,239,veg,,TRUE
 NOODLES & RICE,,Schezwan Noodles,,Chicken,269,non-veg,,TRUE
 NOODLES & RICE,,Schezwan Noodles,,Mix,329,veg,,TRUE
 NOODLES & RICE,,Egg Fried Rice,,,239,non-veg,,TRUE
-GRAVIES & SAUCES,,Schezwan Sauce,,Veg / Paneer / Chicken,219 / ₹259,both,,TRUE
-GRAVIES & SAUCES,,Hot Garlic Sauce,,Veg / Paneer / Chicken,219 / ₹259,both,,TRUE
+GRAVIES & SAUCES,,Schezwan Sauce,,Veg,219,veg,,TRUE
+GRAVIES & SAUCES,,Schezwan Sauce,,Paneer,259,veg,,TRUE
+GRAVIES & SAUCES,,Schezwan Sauce,,Chicken,259,non-veg,,TRUE
+GRAVIES & SAUCES,,Hot Garlic Sauce,,Veg,219,veg,,TRUE
+GRAVIES & SAUCES,,Hot Garlic Sauce,,Paneer,259,veg,,TRUE
+GRAVIES & SAUCES,,Hot Garlic Sauce,,Chicken,259,non-veg,,TRUE
 GRAVIES & SAUCES,,Thai Red Curry Sauce,,Veg,329,veg,,TRUE
 GRAVIES & SAUCES,,Thai Red Curry Sauce,,Chicken,369,non-veg,,TRUE
 GRAVIES & SAUCES,,Thai Green Curry Sauce,,Veg,329,veg,,TRUE
 GRAVIES & SAUCES,,Thai Green Curry Sauce,,Chicken,369,non-veg,,TRUE
-GRAVIES & SAUCES,,Chilli Basil Sauce,,Veg / Paneer / Chicken,219 / ₹259,both,,TRUE
-GRAVIES & SAUCES,,Manchurian Sauce,,Veg / Paneer / Chicken,219 / ₹259,both,,TRUE
+GRAVIES & SAUCES,,Chilli Basil Sauce,,Veg,219,veg,,TRUE
+GRAVIES & SAUCES,,Chilli Basil Sauce,,Paneer,259,veg,,TRUE
+GRAVIES & SAUCES,,Chilli Basil Sauce,,Chicken,259,non-veg,,TRUE
+GRAVIES & SAUCES,,Manchurian Sauce,,Veg,219,veg,,TRUE
+GRAVIES & SAUCES,,Manchurian Sauce,,Paneer,259,veg,,TRUE
+GRAVIES & SAUCES,,Manchurian Sauce,,Chicken,259,non-veg,,TRUE
 PRE-PLATED CONTI-MEALS,,Grilled Fish w Lemon Butter Sauce,Pan grilled fish in lemon butter sauce with sautéed vegetables and potato wedges,,499,non-veg,seafood,TRUE
 PRE-PLATED CONTI-MEALS,,Jalapeño Chicken w Creamy Mexican Sauce,Marinated chicken in Mexican cheese sauce with herb garlic veggies,,479,non-veg,,TRUE
 PRE-PLATED CONTI-MEALS,,Creamy Cajun Chicken,Pan seared in Cajun sauce with sun-dried tomatoes & baby spinach,,479,non-veg,,TRUE
