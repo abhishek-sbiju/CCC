@@ -38,7 +38,7 @@ const HeroSection = () => {
   };
 
   const scrollToMenu = () => {
-    document.getElementById("menu-nav")?.scrollIntoView({ behavior: "smooth" });
+    document.getElementById("menu-start")?.scrollIntoView({ behavior: "smooth" });
   };
 
   return (

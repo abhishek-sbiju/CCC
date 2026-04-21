@@ -215,27 +215,31 @@ html.ccc-splash-on body {
 }
 
 .ccc-menu-splash__label {
-  font-family: var(--font-2, "Cormorant Garamond", serif);
-  font-style: italic;
-  letter-spacing: 0.14em;
+  font-family: var(--font-1, "Montserrat", system-ui, sans-serif);
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
-  font-size: clamp(0.85rem, 1.4vw, 1.05rem);
-  color: var(--color-text-light, #8a8478);
+  font-size: clamp(1.35rem, 4vw, 2rem);
+  color: var(--color-text-bold, #f5f0e8);
   margin: 0;
+  text-shadow:
+    0 1px 0 rgba(15, 14, 12, 0.9),
+    0 2px 24px rgba(201, 162, 39, 0.35);
 }
 
 .ccc-menu-splash__dots {
   display: inline-flex;
-  gap: 0.45rem;
-  margin-top: 0.35rem;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 .ccc-menu-splash__dots span {
-  width: 0.45rem;
-  height: 0.45rem;
+  width: 0.5rem;
+  height: 0.5rem;
   border-radius: 50%;
   background: var(--color-link, #d4b060);
-  opacity: 0.3;
+  opacity: 0.55;
   animation: ccc-splash-dot 1s ease-in-out infinite;
 }
 
@@ -243,7 +247,7 @@ html.ccc-splash-on body {
 .ccc-menu-splash__dots span:nth-child(3) { animation-delay: 0.3s; }
 
 @keyframes ccc-splash-dot {
-  0%, 100% { opacity: 0.25; transform: translateY(0); }
+  0%, 100% { opacity: 0.45; transform: translateY(0); }
   50%      { opacity: 1;    transform: translateY(-3px); }
 }
 

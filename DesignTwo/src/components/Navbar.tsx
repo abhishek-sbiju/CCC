@@ -26,17 +26,33 @@ const Navbar = () => {
 
   return (
     <nav ref={navRef} className="fixed top-0 left-0 right-0 z-50 bg-background backdrop-blur-sm border-b border-border">
-      <div className="flex items-center justify-between px-3 md:px-8 py-[8px] md:py-[14px]">
-        <a href="tel:+918551894992" className="flex items-center gap-1 text-muted-foreground hover:text-foreground transition-colors text-[11px] md:text-xs font-body leading-none">
-          <Phone size={12} className="shrink-0" />
-          <span className="hidden sm:inline">+91 85518 94992</span>
-        </a>
+      <div className="relative flex items-center justify-between px-3 md:px-8 py-[8px] md:py-[14px]">
+        <div className="flex min-w-0 flex-1 basis-0 items-center gap-2 md:gap-3">
+          <a
+            href="/"
+            className="inline-flex shrink-0 rounded-sm outline-none ring-offset-background transition-opacity hover:opacity-90 focus-visible:ring-2 focus-visible:ring-gold/50 focus-visible:ring-offset-2"
+            aria-label="Cafe Chai Coffee — home"
+          >
+            <img
+              src="/cafe-logo.png?v=5"
+              alt=""
+              width={40}
+              height={40}
+              decoding="async"
+              className="h-9 w-9 object-contain md:h-10 md:w-10"
+            />
+          </a>
+          <a href="tel:+918551894992" className="flex min-w-0 items-center gap-1 text-muted-foreground transition-colors hover:text-foreground text-[11px] md:text-xs font-body leading-none">
+            <Phone size={12} className="shrink-0" />
+            <span className="hidden sm:inline">+91 85518 94992</span>
+          </a>
+        </div>
 
-        <p className="font-heading text-[11px] sm:text-sm md:text-base font-bold uppercase tracking-[0.14em] sm:tracking-[0.16em] md:tracking-[0.18em] text-white m-0 leading-tight sm:leading-snug md:leading-normal text-center px-1 min-w-0 shrink [text-shadow:0_1px_3px_rgba(0,0,0,0.95),0_2px_14px_rgba(0,0,0,0.45)]">
+        <p className="pointer-events-none absolute left-1/2 top-1/2 z-10 m-0 max-w-[min(52vw,14rem)] -translate-x-1/2 -translate-y-1/2 text-center font-heading text-[11px] font-bold uppercase leading-tight tracking-[0.14em] text-white [text-shadow:0_1px_3px_rgba(0,0,0,0.95),0_2px_14px_rgba(0,0,0,0.45)] sm:max-w-[min(46vw,18rem)] sm:text-sm sm:leading-snug sm:tracking-[0.16em] md:max-w-none md:text-base md:leading-normal md:tracking-[0.18em]">
           Cafe Chai Coffee
         </p>
 
-        <div className="flex items-center gap-2 md:gap-4">
+        <div className="flex flex-1 basis-0 items-center justify-end gap-2 md:gap-4">
           <a
             href={PUBLIC_MENU_URL}
             target="_blank"
