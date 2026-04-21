@@ -8,7 +8,7 @@
   "orientation": "landscape",
   "icons": [
     {
-      "src": "/cafe-logo.png",
+      "src": "/cafe-logo-192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
