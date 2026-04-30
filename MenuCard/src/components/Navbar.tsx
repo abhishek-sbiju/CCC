@@ -47,7 +47,7 @@ const Navbar = () => {
           </a>
         </div>
 
-        <p className="pointer-events-none absolute left-1/2 top-1/2 z-10 m-0 max-w-[min(52vw,14rem)] -translate-x-1/2 -translate-y-1/2 text-center font-heading text-[11px] font-bold uppercase leading-tight tracking-[0.14em] text-white [text-shadow:0_1px_3px_rgba(0,0,0,0.95),0_2px_14px_rgba(0,0,0,0.45)] sm:max-w-[min(46vw,18rem)] sm:text-sm sm:leading-snug sm:tracking-[0.16em] md:max-w-none md:text-base md:leading-normal md:tracking-[0.18em]">
+        <p className="pointer-events-none absolute left-1/2 top-1/2 z-10 m-0 max-w-[min(52vw,14rem)] -translate-x-1/2 -translate-y-1/2 text-center font-heading text-sm font-bold uppercase leading-tight tracking-[0.14em] text-foreground sm:max-w-[min(46vw,18rem)] sm:text-lg sm:leading-snug sm:tracking-[0.16em] md:max-w-none md:text-2xl md:leading-normal md:tracking-[0.18em]">
           Cafe Chai Coffee
         </p>
 

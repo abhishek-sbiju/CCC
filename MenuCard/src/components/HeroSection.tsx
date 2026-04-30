@@ -38,7 +38,7 @@ const HeroSection = () => {
   };
 
   const scrollToMenu = () => {
-    document.getElementById("menu-start")?.scrollIntoView({ behavior: "smooth" });
+    document.getElementById("wraps")?.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
@@ -63,8 +63,17 @@ const HeroSection = () => {
         </div>
       ))}
 
-      <div className="absolute inset-0 bg-background/50" />
-      <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/55 pointer-events-none" />
+      {/* 🔥 Clean gradient overlay (same pattern as MadrasSquare menus) */}
+      <div className="absolute inset-0 bg-gradient-to-b from-black/55 via-black/25 to-black/70" />
+
+      {/* 🔥 Subtle center lighting for depth */}
+      <div
+        className="absolute inset-0 pointer-events-none"
+        style={{
+          background:
+            "radial-gradient(circle at center, rgba(245,245,220,0.08) 0%, rgba(0,0,0,0.35) 70%)",
+        }}
+      />
 
       <div className="relative z-10 text-center px-3 sm:px-4 max-w-5xl mx-auto">
         <p className="font-heading italic text-base sm:text-lg md:text-xl tracking-[0.05em] text-gold-light mb-2 sm:mb-3 animate-fade-in">
@@ -104,14 +113,12 @@ const HeroSection = () => {
           className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in"
           style={{ animationDelay: "0.5s" }}
         >
-          <a
-            href={PUBLIC_MENU_URL}
-            target="_blank"
-            rel="noopener noreferrer"
+          <button
+            onClick={scrollToMenu}
             className="inline-flex items-center justify-center px-8 py-3 bg-gold/90 text-primary-foreground text-[11px] tracking-[0.18em] font-body font-semibold hover:bg-gold transition-all"
           >
             VIEW MENU
-          </a>
+          </button>
           <a
             href="tel:+918551894992"
             className="px-8 py-3 border border-gold/50 text-gold-light text-[11px] tracking-[0.18em] font-body font-semibold hover:bg-gold/10 transition-all"

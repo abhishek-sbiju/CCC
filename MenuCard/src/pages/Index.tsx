@@ -14,6 +14,7 @@ const Index = () => {
   const [activeCategory, setActiveCategory] = useState(
     () => categories[0]?.id ?? "",
   );
+  const [isVegOnly, setIsVegOnly] = useState(false);
 
   // If the live data resolves to a different first-category than the fallback,
   // or categories re-order, keep the active section in sync.
@@ -67,10 +68,12 @@ const Index = () => {
         activeCategory={activeCategory}
         onCategoryClick={handleCategoryClick}
         categories={categories.map((c) => ({ id: c.id, label: c.title }))}
+        isVegOnly={isVegOnly}
+        onVegToggle={setIsVegOnly}
       />
 
       {categories.map((category, index) => (
-        <MenuSection key={category.id} category={category} index={index} />
+        <MenuSection key={category.id} category={category} index={index} isVegOnly={isVegOnly} />
       ))}
 
       <AboutSection />

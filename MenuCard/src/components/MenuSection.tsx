@@ -59,6 +59,7 @@ const categoryImages: Record<string, string> = {
 interface MenuSectionProps {
   category: MenuCategory;
   index: number;
+  isVegOnly: boolean;
 }
 
 import { getDietType } from "@/lib/diet";
@@ -107,7 +108,7 @@ const MenuItemRow = ({ item, categoryId, subCategoryName }: { item: { name: stri
   const emoji = getBeverageEmoji(categoryId, subCategoryName, item.name);
 
   return (
-  <div className="py-2.5 md:py-4 border-b border-gold/10 last:border-0 hover:bg-white/[0.02] transition-colors md:px-2 rounded-md">
+  <div className="py-2.5 md:py-4 border-b border-gold/20 last:border-0 hover:bg-foreground/[0.03] transition-colors md:px-2 rounded-md">
     <div className="flex items-start md:items-baseline justify-between gap-2 md:gap-3">
       <div className="flex items-start md:items-baseline gap-2 md:gap-3 flex-1 min-w-0">
         <div className="mt-1 md:mt-0 pt-[2px] md:pt-0">
@@ -132,7 +133,7 @@ const MenuItemRow = ({ item, categoryId, subCategoryName }: { item: { name: stri
               {tag}
             </span>
           ))}
-          <span className="hidden md:inline-flex flex-1 border-b border-dotted border-gold/15 mx-2 min-w-[20px]" />
+          <span className="hidden md:inline-flex flex-1 border-b border-dotted border-gold/30 mx-2 min-w-[20px]" />
         </div>
       </div>
       <span className="font-body text-sm md:text-base font-medium text-gold whitespace-nowrap mt-0.5 md:mt-0">
@@ -154,7 +155,7 @@ const DiamondDivider = () => (
   </div>
 );
 
-const MenuSection = ({ category, index }: MenuSectionProps) => {
+const MenuSection = ({ category, index, isVegOnly }: MenuSectionProps) => {
   const isEven = index % 2 === 0;
   const bgClass = isEven ? "bg-[hsl(var(--section-green))]" : "bg-background";
   const image = categoryImages[category.id];
@@ -184,7 +185,7 @@ const MenuSection = ({ category, index }: MenuSectionProps) => {
                       height={768}
                       className="w-full object-cover transition-transform duration-700 group-hover:scale-105"
                     />
-                    <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-700" />
+                    <div className="absolute inset-0 bg-foreground/10 group-hover:bg-transparent transition-colors duration-700" />
                   </div>
                 </FadeIn>
               </div>
@@ -206,23 +207,34 @@ const MenuSection = ({ category, index }: MenuSectionProps) => {
               </FadeIn>
 
               {category.subCategories ? (
-                category.subCategories.map((sub, subIdx) => (
+                category.subCategories.map((sub, subIdx) => {
+                  const items = isVegOnly ? sub.items.filter(item => getDietType(item) !== 'non-veg') : sub.items;
+                  if (items.length === 0) return null;
+                  return (
                   <div key={sub.name} className="mb-6 md:mb-10">
                     <FadeIn delay={150 + (subIdx * 50)}>
                       <h3 className="font-heading text-lg md:text-2xl font-semibold text-gold mb-2 md:mb-4 tracking-[0.08em] md:tracking-[0.1em] uppercase">
                         {sub.name}
                       </h3>
-                      {sub.items.map((item, i) => (
+                      {items.map((item, i) => (
                         <MenuItemRow key={`${item.name}-${i}`} item={item} categoryId={category.id} subCategoryName={sub.name} />
                       ))}
                     </FadeIn>
                   </div>
-                ))
+                )})
               ) : (
                 <FadeIn delay={150}>
-                  {category.items?.map((item, i) => (
-                    <MenuItemRow key={`${item.name}-${i}`} item={item} categoryId={category.id} />
-                  ))}
+                  {(() => {
+                    const items = isVegOnly 
+                      ? category.items?.filter(item => getDietType(item) !== 'non-veg') 
+                      : category.items;
+
+                    if (!items?.length) return <p className="text-muted-foreground italic text-sm py-4">No vegetarian options available in this section.</p>;
+
+                    return items.map((item, i) => (
+                      <MenuItemRow key={`${item.name}-${i}`} item={item} categoryId={category.id} />
+                    ));
+                  })()}
                 </FadeIn>
               )}
             </div>
