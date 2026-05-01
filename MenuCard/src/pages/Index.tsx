@@ -6,7 +6,7 @@ import MenuCategoryNav from "@/components/MenuCategoryNav";
 import MenuSection from "@/components/MenuSection";
 import AboutSection from "@/components/AboutSection";
 import Footer from "@/components/Footer";
-import ScrollToTop from "@/components/ScrollToTop";
+import FloatingMenu from "@/components/FloatingMenu";
 import { useMenuCategories } from "@/hooks/useMenuCategories";
 
 const Index = () => {
@@ -78,7 +78,12 @@ const Index = () => {
 
       <AboutSection />
       <Footer />
-      <ScrollToTop />
+      
+      <FloatingMenu
+        categories={categories.map((c) => ({ id: c.id, label: c.title }))}
+        activeCategory={activeCategory}
+        onCategoryClick={handleCategoryClick}
+      />
     </div>
   );
 };
