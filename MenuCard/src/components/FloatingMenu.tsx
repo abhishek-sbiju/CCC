@@ -98,13 +98,13 @@ export default function FloatingMenu({ categories, activeCategory, onCategoryCli
           </div>
         )}
 
-        {/* FAB */}
+        {/* FAB – pill / capsule shape */}
         <button
           onClick={() => setPopupOpen((v) => !v)}
-          className="flex flex-col items-center justify-center bg-[#0d131f] text-white w-[72px] h-[72px] rounded-full shadow-[0_4px_20px_rgba(0,0,0,0.3)] transition-transform hover:scale-105 active:scale-95 focus:outline-none"
+          className="flex items-center gap-2.5 bg-[#669062] text-white px-5 py-3 rounded-full shadow-[0_4px_20px_rgba(0,0,0,0.25)] transition-transform hover:scale-105 active:scale-95 focus:outline-none"
         >
-          <BookOpen className="w-7 h-7 mb-1" strokeWidth={1.5} />
-          <span className="text-[11px] font-semibold tracking-wider">MENU</span>
+          <BookOpen className="w-5 h-5 shrink-0" strokeWidth={2} />
+          <span className="text-sm font-semibold tracking-wide">Menu</span>
         </button>
       </div>
     </>
